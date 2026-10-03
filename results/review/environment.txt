@@ -1,2 +1,5 @@
 python 3.11.16 torch 2.14.0 transformers 5.17.0
+Qwen/Qwen3-8B-Base revision 49e3418fbbbca6ecbdf9608b4d22e5a407081db4
 ALLaM-AI/ALLaM-7B-Instruct-preview revision a28dd1e67420cde72d3629c8633a974cf7d9c366
+google/gemma-2-9b revision 33c193028431c2fde6c6e51f29e6f17b60cbfac6
+QCRI/Fanar-1-9B revision d33480ed13158518a0902a1d4ac00d66cf4086a9
