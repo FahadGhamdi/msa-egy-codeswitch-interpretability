@@ -8,12 +8,11 @@ authors:
     orcid: "https://orcid.org/0000-0002-4161-2658"
 license: MIT
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Absorbed or Anchored? How Large Language Models Represent Embedded Words in Modern Standard Arabic–Egyptian Arabic Code-Switching"
   authors:
     - family-names: AlGhamdi
       given-names: Fahad
       orcid: "https://orcid.org/0000-0002-4161-2658"
-  journal: "Applied Sciences"
   year: 2026
-  notes: "Submitted"
+  notes: "Manuscript under review"

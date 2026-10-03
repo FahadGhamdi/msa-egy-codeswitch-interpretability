@@ -2,7 +2,7 @@
 
 Code and saved results for the article
 
-> F. AlGhamdi. *Absorbed or Anchored? How Large Language Models Represent Embedded Words in Modern Standard Arabic–Egyptian Arabic Code-Switching.* Submitted to *Applied Sciences* (MDPI), 2026.
+> F. AlGhamdi. *Absorbed or Anchored? How Large Language Models Represent Embedded Words in Modern Standard Arabic–Egyptian Arabic Code-Switching.* Manuscript under review, 2026.
 
 The package lets you (1) regenerate every table and figure of the article from the saved result files in about a minute, without running any model, and (2) re-run all model experiments from scratch.
 
