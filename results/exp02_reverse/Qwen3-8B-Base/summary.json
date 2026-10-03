@@ -1,0 +1,115 @@
+{
+  "model": "Qwen/Qwen3-8B-Base",
+  "n_layers": 36,
+  "readout_layer": 29,
+  "prefix_tokens": 12,
+  "n_pairs": {
+    "MSA": 150,
+    "EGY": 150
+  },
+  "n_unambiguous_types": {
+    "MSA": 2051,
+    "EGY": 291
+  },
+  "context_sensitivity_at_R (s_EGYprefix - s_MSAprefix)": {
+    "MSA": {
+      "mean": 0.49520983492722737,
+      "ci_lo": 0.419643382081956,
+      "ci_hi": 0.5661445727299821
+    },
+    "EGY": {
+      "mean": 0.6292150440237795,
+      "ci_lo": 0.5403329995025415,
+      "ci_hi": 0.7160648808610858
+    }
+  },
+  "asymmetry_MSA_minus_EGY": {
+    "mean": -0.1340052090965521,
+    "ci_lo": -0.2523471036679693,
+    "ci_hi": -0.01743850002532923
+  },
+  "top_attn_layers_by_patching": [
+    22,
+    24,
+    26
+  ],
+  "top_heads": [
+    {
+      "layer": 22,
+      "head": 19,
+      "mean": 0.04364745815517381
+    },
+    {
+      "layer": 24,
+      "head": 27,
+      "mean": 0.042950269995102035
+    },
+    {
+      "layer": 26,
+      "head": 1,
+      "mean": 0.029938207571394742
+    },
+    {
+      "layer": 22,
+      "head": 14,
+      "mean": 0.02781210185882325
+    },
+    {
+      "layer": 24,
+      "head": 25,
+      "mean": 0.017026714065577833
+    },
+    {
+      "layer": 22,
+      "head": 31,
+      "mean": 0.015691688938532025
+    },
+    {
+      "layer": 22,
+      "head": 15,
+      "mean": 0.015017980080253134
+    },
+    {
+      "layer": 22,
+      "head": 18,
+      "mean": 0.0091025278001689
+    },
+    {
+      "layer": 22,
+      "head": 29,
+      "mean": 0.007944681432563811
+    },
+    {
+      "layer": 22,
+      "head": 12,
+      "mean": 0.005767228316981346
+    }
+  ],
+  "peak_restoration": {
+    "EGY_attn": {
+      "layer": 22,
+      "restoration": 0.18771296396534823
+    },
+    "EGY_mlp": {
+      "layer": 27,
+      "restoration": 0.30728936708207194
+    },
+    "EGY_resid": {
+      "layer": 28,
+      "restoration": 0.9672083586010035
+    },
+    "MSA_attn": {
+      "layer": 22,
+      "restoration": 0.21475249519126505
+    },
+    "MSA_mlp": {
+      "layer": 27,
+      "restoration": 0.24471599566843627
+    },
+    "MSA_resid": {
+      "layer": 28,
+      "restoration": 0.9655512804239984
+    }
+  },
+  "minutes": 12.5
+}

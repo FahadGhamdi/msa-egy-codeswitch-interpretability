@@ -1,0 +1,2086 @@
+{
+  "model": "QCRI/Fanar-1-9B",
+  "heads_from": "exp02/Fanar-1-9B",
+  "readout_layer": 34,
+  "top_heads": [
+    "L29H12",
+    "L25H3",
+    "L23H1",
+    "L29H2",
+    "L29H11"
+  ],
+  "n_items": {
+    "MSA_in_EGY": 187,
+    "EGY_in_MSA": 167,
+    "mono_MSA": 150,
+    "mono_EGY": 150
+  },
+  "n_tweets": {
+    "MSA_in_EGY": 125,
+    "EGY_in_MSA": 124,
+    "mono_MSA": 150,
+    "mono_EGY": 150
+  },
+  "random_draws": {
+    "target": 100,
+    "next1": 100,
+    "later": 100
+  },
+  "sites": [
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_own_logit",
+      "site": "target",
+      "top5": 0.75889,
+      "p_rank": 0.0099,
+      "net": 0.94814,
+      "lo": 0.6214,
+      "hi": 1.28974,
+      "p": 0.0002,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_own_logit",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_own_logit",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "target",
+      "top5": -0.08511,
+      "p_rank": 0.0099,
+      "net": -0.10104,
+      "lo": -0.13741,
+      "hi": -0.06979,
+      "p": 0.0002,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "target",
+      "top5": 0.00543,
+      "p_rank": 0.23762,
+      "net": 0.00309,
+      "lo": -0.0088,
+      "hi": 0.01403,
+      "p": 0.5648,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "next1",
+      "top5": 0.00777,
+      "p_rank": 0.26733,
+      "net": 0.00342,
+      "lo": -0.006,
+      "hi": 0.01429,
+      "p": 0.5028,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "later",
+      "top5": 0.03456,
+      "p_rank": 0.0396,
+      "net": 0.03186,
+      "lo": -0.02368,
+      "hi": 0.09235,
+      "p": 0.26,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "target",
+      "top5": 0.00987,
+      "p_rank": 0.0099,
+      "net": 0.00714,
+      "lo": -0.00026,
+      "hi": 0.01549,
+      "p": 0.0564,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "next1",
+      "top5": 0.00822,
+      "p_rank": 0.27723,
+      "net": 0.00355,
+      "lo": -0.0069,
+      "hi": 0.01515,
+      "p": 0.5304,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "later",
+      "top5": 0.03569,
+      "p_rank": 0.0297,
+      "net": 0.03259,
+      "lo": -0.02299,
+      "hi": 0.09301,
+      "p": 0.2552,
+      "n": 54
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "target",
+      "top5": 0.00432,
+      "p_rank": 0.45545,
+      "net": 0.00438,
+      "lo": -0.00631,
+      "hi": 0.01448,
+      "p": 0.4072,
+      "n": 154
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "next1",
+      "top5": -0.00228,
+      "p_rank": 0.47525,
+      "net": -0.00037,
+      "lo": -0.00726,
+      "hi": 0.00687,
+      "p": 0.908,
+      "n": 154
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "later",
+      "top5": -0.01218,
+      "p_rank": 0.23762,
+      "net": -0.00742,
+      "lo": -0.02454,
+      "hi": 0.00911,
+      "p": 0.3572,
+      "n": 154
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "target",
+      "top5": 0.00515,
+      "p_rank": 0.22772,
+      "net": 0.00482,
+      "lo": -0.00366,
+      "hi": 0.01291,
+      "p": 0.2392,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "next1",
+      "top5": -0.00012,
+      "p_rank": 0.9604,
+      "net": 0.00097,
+      "lo": -0.0049,
+      "hi": 0.00736,
+      "p": 0.7688,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "later",
+      "top5": 0.00088,
+      "p_rank": 0.91089,
+      "net": 0.00418,
+      "lo": -0.0147,
+      "hi": 0.02481,
+      "p": 0.6984,
+      "n": 187
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "target",
+      "top5": -0.02647,
+      "p_rank": 0.09901,
+      "net": -0.02338,
+      "lo": -0.07505,
+      "hi": 0.02132,
+      "p": 0.3444,
+      "n": 20
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "next1",
+      "top5": -0.01379,
+      "p_rank": 0.23762,
+      "net": -0.01375,
+      "lo": -0.03741,
+      "hi": 0.00709,
+      "p": 0.2096,
+      "n": 20
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "later",
+      "top5": -0.00439,
+      "p_rank": 0.74257,
+      "net": -0.01071,
+      "lo": -0.03332,
+      "hi": 0.01015,
+      "p": 0.3264,
+      "n": 20
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "target",
+      "top5": 0.01392,
+      "p_rank": 0.0495,
+      "net": 0.0094,
+      "lo": 4e-05,
+      "hi": 0.01922,
+      "p": 0.0492,
+      "n": 36
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "next1",
+      "top5": 0.00699,
+      "p_rank": 0.41584,
+      "net": 0.00276,
+      "lo": -0.0191,
+      "hi": 0.0269,
+      "p": 0.8448,
+      "n": 36
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "later",
+      "top5": 0.01803,
+      "p_rank": 0.39604,
+      "net": 0.02927,
+      "lo": -0.01478,
+      "hi": 0.07849,
+      "p": 0.2032,
+      "n": 36
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "target",
+      "top5": -0.00066,
+      "p_rank": 0.9505,
+      "net": 0.00335,
+      "lo": -0.00747,
+      "hi": 0.0141,
+      "p": 0.5372,
+      "n": 48
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "next1",
+      "top5": 0.00568,
+      "p_rank": 0.37624,
+      "net": 0.00736,
+      "lo": -0.00177,
+      "hi": 0.01688,
+      "p": 0.1168,
+      "n": 48
+    },
+    {
+      "group": "MSA_in_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "later",
+      "top5": 0.00763,
+      "p_rank": 0.77228,
+      "net": 0.01753,
+      "lo": -0.04861,
+      "hi": 0.08854,
+      "p": 0.6364,
+      "n": 48
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_own_logit",
+      "site": "target",
+      "top5": -0.90261,
+      "p_rank": 0.0099,
+      "net": -0.97758,
+      "lo": -1.18801,
+      "hi": -0.76076,
+      "p": 0.0002,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_own_logit",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_own_logit",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "target",
+      "top5": 0.0926,
+      "p_rank": 0.0099,
+      "net": 0.08384,
+      "lo": 0.05469,
+      "hi": 0.11653,
+      "p": 0.0002,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "target",
+      "top5": 0.00159,
+      "p_rank": 0.87129,
+      "net": 0.00964,
+      "lo": -0.013,
+      "hi": 0.03245,
+      "p": 0.3984,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "next1",
+      "top5": 0.00507,
+      "p_rank": 0.81188,
+      "net": 0.01547,
+      "lo": -0.01846,
+      "hi": 0.05271,
+      "p": 0.4316,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "later",
+      "top5": 0.08333,
+      "p_rank": 0.0099,
+      "net": 0.06191,
+      "lo": -0.01236,
+      "hi": 0.14324,
+      "p": 0.1092,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "target",
+      "top5": -0.00369,
+      "p_rank": 0.81188,
+      "net": 0.00489,
+      "lo": -0.00424,
+      "hi": 0.01323,
+      "p": 0.2864,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "next1",
+      "top5": 0.00938,
+      "p_rank": 0.67327,
+      "net": 0.02148,
+      "lo": -0.02371,
+      "hi": 0.075,
+      "p": 0.4528,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "later",
+      "top5": 0.08902,
+      "p_rank": 0.0099,
+      "net": 0.06841,
+      "lo": -0.02072,
+      "hi": 0.17032,
+      "p": 0.1616,
+      "n": 25
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "target",
+      "top5": 0.01111,
+      "p_rank": 0.09901,
+      "net": 0.01377,
+      "lo": -0.00044,
+      "hi": 0.02947,
+      "p": 0.0588,
+      "n": 153
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "next1",
+      "top5": -0.00503,
+      "p_rank": 0.0495,
+      "net": -0.00531,
+      "lo": -0.01315,
+      "hi": 0.0022,
+      "p": 0.1708,
+      "n": 153
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "later",
+      "top5": -0.01596,
+      "p_rank": 0.0198,
+      "net": -0.0159,
+      "lo": -0.03161,
+      "hi": -0.0009,
+      "p": 0.0372,
+      "n": 153
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "target",
+      "top5": 0.01302,
+      "p_rank": 0.0495,
+      "net": 0.01589,
+      "lo": 0.00352,
+      "hi": 0.02952,
+      "p": 0.0116,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "next1",
+      "top5": -0.00411,
+      "p_rank": 0.07921,
+      "net": -0.00388,
+      "lo": -0.01098,
+      "hi": 0.0035,
+      "p": 0.2892,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "later",
+      "top5": -0.00874,
+      "p_rank": 0.21782,
+      "net": -0.01094,
+      "lo": -0.02578,
+      "hi": 0.0041,
+      "p": 0.1524,
+      "n": 167
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "target",
+      "top5": 0.00283,
+      "p_rank": 0.88119,
+      "net": 0.00213,
+      "lo": -0.12514,
+      "hi": 0.12629,
+      "p": 0.9708,
+      "n": 13
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "next1",
+      "top5": 0.00565,
+      "p_rank": 0.62376,
+      "net": 0.0126,
+      "lo": -0.04695,
+      "hi": 0.08803,
+      "p": 0.8068,
+      "n": 13
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "later",
+      "top5": 0.01113,
+      "p_rank": 0.49505,
+      "net": 0.02192,
+      "lo": -0.04689,
+      "hi": 0.11754,
+      "p": 0.71,
+      "n": 13
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "target",
+      "top5": 0.0181,
+      "p_rank": 0.12871,
+      "net": 0.01165,
+      "lo": -0.00856,
+      "hi": 0.02968,
+      "p": 0.2376,
+      "n": 15
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "next1",
+      "top5": 0.0181,
+      "p_rank": 0.30693,
+      "net": 0.00706,
+      "lo": -0.05361,
+      "hi": 0.07201,
+      "p": 0.8204,
+      "n": 15
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "later",
+      "top5": 0.03732,
+      "p_rank": 0.26733,
+      "net": 0.01493,
+      "lo": -0.08429,
+      "hi": 0.10894,
+      "p": 0.7412,
+      "n": 15
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "target",
+      "top5": -0.00688,
+      "p_rank": 0.41584,
+      "net": -0.00447,
+      "lo": -0.01494,
+      "hi": 0.00567,
+      "p": 0.4148,
+      "n": 20
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "next1",
+      "top5": 0.00399,
+      "p_rank": 0.63366,
+      "net": 0.00817,
+      "lo": -0.00793,
+      "hi": 0.02453,
+      "p": 0.312,
+      "n": 20
+    },
+    {
+      "group": "EGY_in_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "later",
+      "top5": 0.10785,
+      "p_rank": 0.07921,
+      "net": 0.04985,
+      "lo": -0.0108,
+      "hi": 0.1145,
+      "p": 0.1004,
+      "n": 20
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_own_logit",
+      "site": "target",
+      "top5": -2.53609,
+      "p_rank": 0.0099,
+      "net": -2.28478,
+      "lo": -2.43626,
+      "hi": -2.13336,
+      "p": 0.0002,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_own_logit",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_own_logit",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "target",
+      "top5": -0.08602,
+      "p_rank": 0.0099,
+      "net": -0.07591,
+      "lo": -0.10052,
+      "hi": -0.05108,
+      "p": 0.0002,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_D_to_matrix",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "target",
+      "top5": 0.0042,
+      "p_rank": 0.23762,
+      "net": 0.00273,
+      "lo": -0.00484,
+      "hi": 0.0103,
+      "p": 0.486,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "next1",
+      "top5": -0.00055,
+      "p_rank": 0.94059,
+      "net": -0.00553,
+      "lo": -0.01368,
+      "hi": 0.00289,
+      "p": 0.1952,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix",
+      "site": "later",
+      "top5": -0.00884,
+      "p_rank": 0.36634,
+      "net": -0.0125,
+      "lo": -0.02709,
+      "hi": 0.0024,
+      "p": 0.1076,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "target",
+      "top5": 0.00456,
+      "p_rank": 0.13861,
+      "net": 0.00199,
+      "lo": -0.00164,
+      "hi": 0.00561,
+      "p": 0.28,
+      "n": 149
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "next1",
+      "top5": -0.00017,
+      "p_rank": 1.0,
+      "net": -0.00713,
+      "lo": -0.01728,
+      "hi": 0.00328,
+      "p": 0.1916,
+      "n": 149
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "later",
+      "top5": -0.01113,
+      "p_rank": 0.34653,
+      "net": -0.01581,
+      "lo": -0.03355,
+      "hi": 0.0019,
+      "p": 0.0856,
+      "n": 149
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "target",
+      "top5": 0.0042,
+      "p_rank": 0.23762,
+      "net": 0.00273,
+      "lo": -0.00484,
+      "hi": 0.0103,
+      "p": 0.486,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "next1",
+      "top5": -0.00055,
+      "p_rank": 0.94059,
+      "net": -0.00553,
+      "lo": -0.01368,
+      "hi": 0.00289,
+      "p": 0.1952,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_own",
+      "site": "later",
+      "top5": -0.00884,
+      "p_rank": 0.36634,
+      "net": -0.0125,
+      "lo": -0.02709,
+      "hi": 0.0024,
+      "p": 0.1076,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "target",
+      "top5": 0.0042,
+      "p_rank": 0.23762,
+      "net": 0.00273,
+      "lo": -0.00484,
+      "hi": 0.0103,
+      "p": 0.486,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "next1",
+      "top5": -0.00055,
+      "p_rank": 0.94059,
+      "net": -0.00553,
+      "lo": -0.01368,
+      "hi": 0.00289,
+      "p": 0.1952,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_all",
+      "site": "later",
+      "top5": -0.00884,
+      "p_rank": 0.36634,
+      "net": -0.0125,
+      "lo": -0.02709,
+      "hi": 0.0024,
+      "p": 0.1076,
+      "n": 150
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "target",
+      "top5": 0.0121,
+      "p_rank": 0.07921,
+      "net": 0.01271,
+      "lo": -0.00739,
+      "hi": 0.03364,
+      "p": 0.2168,
+      "n": 132
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "next1",
+      "top5": -0.00812,
+      "p_rank": 0.0099,
+      "net": -0.00801,
+      "lo": -0.02538,
+      "hi": 0.00745,
+      "p": 0.3372,
+      "n": 132
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "later",
+      "top5": -0.0098,
+      "p_rank": 0.0099,
+      "net": -0.00888,
+      "lo": -0.02639,
+      "hi": 0.0071,
+      "p": 0.2932,
+      "n": 132
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "target",
+      "top5": 0.0038,
+      "p_rank": 0.20792,
+      "net": 0.00227,
+      "lo": -0.0043,
+      "hi": 0.009,
+      "p": 0.504,
+      "n": 123
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "next1",
+      "top5": 4e-05,
+      "p_rank": 0.9901,
+      "net": -0.00813,
+      "lo": -0.02199,
+      "hi": 0.00468,
+      "p": 0.228,
+      "n": 123
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "later",
+      "top5": -0.01236,
+      "p_rank": 0.42574,
+      "net": -0.01671,
+      "lo": -0.04163,
+      "hi": 0.00699,
+      "p": 0.1704,
+      "n": 123
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "target",
+      "top5": 0.00253,
+      "p_rank": 0.60396,
+      "net": -0.00038,
+      "lo": -0.00643,
+      "hi": 0.00551,
+      "p": 0.8908,
+      "n": 120
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "next1",
+      "top5": 0.00294,
+      "p_rank": 0.66337,
+      "net": -0.00122,
+      "lo": -0.00646,
+      "hi": 0.00423,
+      "p": 0.6836,
+      "n": 120
+    },
+    {
+      "group": "mono_MSA",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "later",
+      "top5": -0.00737,
+      "p_rank": 0.63366,
+      "net": -0.01321,
+      "lo": -0.04287,
+      "hi": 0.01474,
+      "p": 0.3564,
+      "n": 120
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_own_logit",
+      "site": "target",
+      "top5": -1.6869,
+      "p_rank": 0.0099,
+      "net": -1.65255,
+      "lo": -1.81498,
+      "hi": -1.4903,
+      "p": 0.0002,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_own_logit",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_own_logit",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "target",
+      "top5": -0.0842,
+      "p_rank": 0.0099,
+      "net": -0.08652,
+      "lo": -0.10992,
+      "hi": -0.06329,
+      "p": 0.0002,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "next1",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_D_to_matrix",
+      "site": "later",
+      "top5": 0.0,
+      "p_rank": 1.0,
+      "net": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p": 2.0,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "target",
+      "top5": 0.00211,
+      "p_rank": 0.84158,
+      "net": 0.00644,
+      "lo": -0.00225,
+      "hi": 0.01557,
+      "p": 0.1588,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "next1",
+      "top5": -0.00276,
+      "p_rank": 0.37624,
+      "net": -0.00214,
+      "lo": -0.0107,
+      "hi": 0.00646,
+      "p": 0.6348,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix",
+      "site": "later",
+      "top5": -0.01234,
+      "p_rank": 0.0396,
+      "net": -0.01432,
+      "lo": -0.03154,
+      "hi": 0.00241,
+      "p": 0.0932,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "target",
+      "top5": 0.00398,
+      "p_rank": 0.17822,
+      "net": 0.00541,
+      "lo": 0.00073,
+      "hi": 0.01041,
+      "p": 0.0236,
+      "n": 146
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "next1",
+      "top5": -0.00214,
+      "p_rank": 0.61386,
+      "net": -0.00153,
+      "lo": -0.01478,
+      "hi": 0.01075,
+      "p": 0.7952,
+      "n": 146
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_x1",
+      "site": "later",
+      "top5": -0.0133,
+      "p_rank": 0.16832,
+      "net": -0.01635,
+      "lo": -0.03849,
+      "hi": 0.00491,
+      "p": 0.1416,
+      "n": 146
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "target",
+      "top5": 0.00211,
+      "p_rank": 0.84158,
+      "net": 0.00644,
+      "lo": -0.00225,
+      "hi": 0.01557,
+      "p": 0.1588,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "next1",
+      "top5": -0.00276,
+      "p_rank": 0.37624,
+      "net": -0.00214,
+      "lo": -0.0107,
+      "hi": 0.00646,
+      "p": 0.6348,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_own",
+      "site": "later",
+      "top5": -0.01234,
+      "p_rank": 0.0396,
+      "net": -0.01432,
+      "lo": -0.03154,
+      "hi": 0.00241,
+      "p": 0.0932,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "target",
+      "top5": 0.00211,
+      "p_rank": 0.84158,
+      "net": 0.00644,
+      "lo": -0.00225,
+      "hi": 0.01557,
+      "p": 0.1588,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "next1",
+      "top5": -0.00276,
+      "p_rank": 0.37624,
+      "net": -0.00214,
+      "lo": -0.0107,
+      "hi": 0.00646,
+      "p": 0.6348,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_all",
+      "site": "later",
+      "top5": -0.01234,
+      "p_rank": 0.0396,
+      "net": -0.01432,
+      "lo": -0.03154,
+      "hi": 0.00241,
+      "p": 0.0932,
+      "n": 150
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "target",
+      "top5": 0.00338,
+      "p_rank": 0.84158,
+      "net": 0.00992,
+      "lo": -0.01238,
+      "hi": 0.03262,
+      "p": 0.394,
+      "n": 136
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "next1",
+      "top5": 0.00186,
+      "p_rank": 0.52475,
+      "net": 0.00265,
+      "lo": -0.00554,
+      "hi": 0.01131,
+      "p": 0.5308,
+      "n": 136
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w1",
+      "site": "later",
+      "top5": -0.00182,
+      "p_rank": 0.53465,
+      "net": 0.00011,
+      "lo": -0.01038,
+      "hi": 0.01037,
+      "p": 0.9784,
+      "n": 136
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "target",
+      "top5": 0.00095,
+      "p_rank": 0.86139,
+      "net": 0.00348,
+      "lo": -0.00412,
+      "hi": 0.01101,
+      "p": 0.3768,
+      "n": 126
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "next1",
+      "top5": -0.00527,
+      "p_rank": 0.31683,
+      "net": -0.00479,
+      "lo": -0.0241,
+      "hi": 0.01323,
+      "p": 0.6068,
+      "n": 126
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w2",
+      "site": "later",
+      "top5": -0.02239,
+      "p_rank": 0.05941,
+      "net": -0.02843,
+      "lo": -0.05802,
+      "hi": 0.00047,
+      "p": 0.0544,
+      "n": 126
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "target",
+      "top5": 0.00514,
+      "p_rank": 0.16832,
+      "net": 0.00538,
+      "lo": -0.00251,
+      "hi": 0.01366,
+      "p": 0.1672,
+      "n": 110
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "next1",
+      "top5": -0.00253,
+      "p_rank": 0.51485,
+      "net": -0.00376,
+      "lo": -0.01201,
+      "hi": 0.00479,
+      "p": 0.38,
+      "n": 110
+    },
+    {
+      "group": "mono_EGY",
+      "measure": "d_cont_lp_matrix_w3",
+      "site": "later",
+      "top5": -0.0109,
+      "p_rank": 0.38614,
+      "net": -0.01877,
+      "lo": -0.06389,
+      "hi": 0.02448,
+      "p": 0.4228,
+      "n": 110
+    }
+  ],
+  "paired": {
+    "MSA_in_EGY/d_own_logit/next1_minus_target": [
+      -0.9481361108078038,
+      -1.2897353241381038,
+      -0.6213990411113557,
+      0.0002,
+      187
+    ],
+    "MSA_in_EGY/d_own_logit/later_minus_target": [
+      -0.9481361108078038,
+      -1.2897353241381038,
+      -0.6213990411113557,
+      0.0002,
+      187
+    ],
+    "MSA_in_EGY/d_own_logit/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      187
+    ],
+    "MSA_in_EGY/d_D_to_matrix/next1_minus_target": [
+      0.10103746302625073,
+      0.06978671554376895,
+      0.1374104694156703,
+      0.0002,
+      187
+    ],
+    "MSA_in_EGY/d_D_to_matrix/later_minus_target": [
+      0.10103746302625073,
+      0.06978671554376895,
+      0.1374104694156703,
+      0.0002,
+      187
+    ],
+    "MSA_in_EGY/d_D_to_matrix/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      187
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix/next1_minus_target": [
+      0.00033209663850289827,
+      -0.00970117065554145,
+      0.011487193005797746,
+      0.9724,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix/later_minus_target": [
+      0.028770525367171677,
+      -0.027843054675468822,
+      0.08952339327919716,
+      0.3192,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix/later_minus_next1": [
+      0.028438428728668776,
+      -0.02724187778391071,
+      0.08786497491520215,
+      0.3132,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_x1/next1_minus_target": [
+      -0.0035951330567951553,
+      -0.014363472104922202,
+      0.0070196944798907165,
+      0.5068,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_x1/later_minus_target": [
+      0.025445783185186213,
+      -0.03141354621533147,
+      0.0850692260632462,
+      0.38,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_x1/later_minus_next1": [
+      0.02904091624198136,
+      -0.026892217464555623,
+      0.08863393914570304,
+      0.3108,
+      54
+    ],
+    "MSA_in_EGY/d_cont_lp_own/next1_minus_target": [
+      -0.004751276731394328,
+      -0.016690185864850295,
+      0.008252594659962552,
+      0.452,
+      154
+    ],
+    "MSA_in_EGY/d_cont_lp_own/later_minus_target": [
+      -0.011801195180938613,
+      -0.03125378983185416,
+      0.00761343175588687,
+      0.2092,
+      154
+    ],
+    "MSA_in_EGY/d_cont_lp_own/later_minus_next1": [
+      -0.007049918449544285,
+      -0.02189341013753041,
+      0.008047634187493694,
+      0.3292,
+      154
+    ],
+    "MSA_in_EGY/d_cont_lp_all/next1_minus_target": [
+      -0.0038456809134247458,
+      -0.01320154721465118,
+      0.006312688098313576,
+      0.408,
+      187
+    ],
+    "MSA_in_EGY/d_cont_lp_all/later_minus_target": [
+      -0.0006335886910478041,
+      -0.02012390285649638,
+      0.02075548556232007,
+      0.9096,
+      187
+    ],
+    "MSA_in_EGY/d_cont_lp_all/later_minus_next1": [
+      0.0032120922223769404,
+      -0.014374697517375763,
+      0.022823521365646426,
+      0.7812,
+      187
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w1/next1_minus_target": [
+      0.009637104749679565,
+      -0.04087588467200597,
+      0.06380326791813497,
+      0.7588,
+      20
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w1/later_minus_target": [
+      0.012671411037445068,
+      -0.03780343811606106,
+      0.065570566898898,
+      0.674,
+      20
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w1/later_minus_next1": [
+      0.003034306287765503,
+      -0.003095839814135903,
+      0.008567899435758563,
+      0.2948,
+      20
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w2/next1_minus_target": [
+      -0.00663624993628926,
+      -0.027362921511804736,
+      0.015176834050459512,
+      0.5336,
+      36
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w2/later_minus_target": [
+      0.01987297325498528,
+      -0.022168108078263825,
+      0.06579111462354406,
+      0.3636,
+      36
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w2/later_minus_next1": [
+      0.026509223191274536,
+      -0.011393223769134942,
+      0.06980925629838754,
+      0.1736,
+      36
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w3/next1_minus_target": [
+      0.0040077808685600735,
+      -0.00859865560134252,
+      0.018306680652610163,
+      0.5628,
+      48
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w3/later_minus_target": [
+      0.014180250509331622,
+      -0.05375263063577206,
+      0.0865876521061484,
+      0.7016,
+      48
+    ],
+    "MSA_in_EGY/d_cont_lp_matrix_w3/later_minus_next1": [
+      0.010172469640771549,
+      -0.05874102026526478,
+      0.08101354836797597,
+      0.7972,
+      48
+    ],
+    "EGY_in_MSA/d_own_logit/next1_minus_target": [
+      0.9775810524446522,
+      0.7607614635336731,
+      1.1880074844757649,
+      0.0002,
+      167
+    ],
+    "EGY_in_MSA/d_own_logit/later_minus_target": [
+      0.9775810524446522,
+      0.7607614635336731,
+      1.1880074844757649,
+      0.0002,
+      167
+    ],
+    "EGY_in_MSA/d_own_logit/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      167
+    ],
+    "EGY_in_MSA/d_D_to_matrix/next1_minus_target": [
+      -0.0838415669395538,
+      -0.11653436478614185,
+      -0.05468521699803841,
+      0.0002,
+      167
+    ],
+    "EGY_in_MSA/d_D_to_matrix/later_minus_target": [
+      -0.0838415669395538,
+      -0.11653436478614185,
+      -0.05468521699803841,
+      0.0002,
+      167
+    ],
+    "EGY_in_MSA/d_D_to_matrix/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      167
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix/next1_minus_target": [
+      0.005828624346852302,
+      -0.031000746421593554,
+      0.0434709468080351,
+      0.8152,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix/later_minus_target": [
+      0.05227660970389843,
+      -0.018868415610787143,
+      0.1346711972961202,
+      0.188,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix/later_minus_next1": [
+      0.046447985357046126,
+      -0.0012070791522661825,
+      0.09724006887582631,
+      0.06,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_x1/next1_minus_target": [
+      0.016591778919845816,
+      -0.02380060024683674,
+      0.06554306703648978,
+      0.55,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_x1/later_minus_target": [
+      0.06352657438870518,
+      -0.021770318988308043,
+      0.16046384514663442,
+      0.178,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_x1/later_minus_next1": [
+      0.046934795468859376,
+      -0.005305251412127591,
+      0.10218981864555848,
+      0.0868,
+      25
+    ],
+    "EGY_in_MSA/d_cont_lp_own/next1_minus_target": [
+      -0.019074464870336785,
+      -0.03637436098560289,
+      -0.0032832194791519937,
+      0.0128,
+      153
+    ],
+    "EGY_in_MSA/d_cont_lp_own/later_minus_target": [
+      -0.02966536716844132,
+      -0.049836489067227846,
+      -0.011000538121826392,
+      0.002,
+      153
+    ],
+    "EGY_in_MSA/d_cont_lp_own/later_minus_next1": [
+      -0.010590902298104528,
+      -0.022699230459659065,
+      0.0007721381003204442,
+      0.068,
+      153
+    ],
+    "EGY_in_MSA/d_cont_lp_all/next1_minus_target": [
+      -0.0197728802036204,
+      -0.035490932124377574,
+      -0.0056118282653987465,
+      0.0064,
+      167
+    ],
+    "EGY_in_MSA/d_cont_lp_all/later_minus_target": [
+      -0.026825355254336745,
+      -0.04583675774947054,
+      -0.009008442739541225,
+      0.0028,
+      167
+    ],
+    "EGY_in_MSA/d_cont_lp_all/later_minus_next1": [
+      -0.007052475050716341,
+      -0.01839844779261805,
+      0.00424905208048061,
+      0.2272,
+      167
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w1/next1_minus_target": [
+      0.010465841849262893,
+      -0.12843611770853972,
+      0.1522232592348008,
+      0.874,
+      13
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w1/later_minus_target": [
+      0.019788673560206707,
+      -0.12562779822128894,
+      0.16781266569761694,
+      0.802,
+      13
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w1/later_minus_next1": [
+      0.009322831710943811,
+      -0.002134399094547216,
+      0.028636849738084353,
+      0.3096,
+      13
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w2/next1_minus_target": [
+      -0.0045872129599253365,
+      -0.053569178084532425,
+      0.04900721756219861,
+      0.832,
+      15
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w2/later_minus_target": [
+      0.003280340512593586,
+      -0.08522944717009863,
+      0.09481414089600226,
+      0.958,
+      15
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w2/later_minus_next1": [
+      0.007867553472518933,
+      -0.053458750337362276,
+      0.08194771442214646,
+      0.8636,
+      15
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w3/next1_minus_target": [
+      0.01263263189792633,
+      -0.0076568447135388846,
+      0.03225590076148511,
+      0.2048,
+      20
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w3/later_minus_target": [
+      0.05431588171422482,
+      -0.00820366495735943,
+      0.11886331147439771,
+      0.0852,
+      20
+    ],
+    "EGY_in_MSA/d_cont_lp_matrix_w3/later_minus_next1": [
+      0.041683249816298486,
+      -0.014844238779321317,
+      0.09948564778342837,
+      0.1408,
+      20
+    ],
+    "mono_MSA/d_own_logit/next1_minus_target": [
+      2.2847809802730876,
+      2.1333605846677224,
+      2.436256516173283,
+      0.0002,
+      150
+    ],
+    "mono_MSA/d_own_logit/later_minus_target": [
+      2.2847809802730876,
+      2.1333605846677224,
+      2.436256516173283,
+      0.0002,
+      150
+    ],
+    "mono_MSA/d_own_logit/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      150
+    ],
+    "mono_MSA/d_D_to_matrix/next1_minus_target": [
+      0.07590592569510143,
+      0.051079589161078125,
+      0.10052381448566912,
+      0.0002,
+      150
+    ],
+    "mono_MSA/d_D_to_matrix/later_minus_target": [
+      0.07590592569510143,
+      0.051079589161078125,
+      0.10052381448566912,
+      0.0002,
+      150
+    ],
+    "mono_MSA/d_D_to_matrix/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      150
+    ],
+    "mono_MSA/d_cont_lp_matrix/next1_minus_target": [
+      -0.008263168714940549,
+      -0.0186063214933003,
+      0.0023671939253558714,
+      0.1224,
+      150
+    ],
+    "mono_MSA/d_cont_lp_matrix/later_minus_target": [
+      -0.015227469860514006,
+      -0.030875425291607774,
+      0.001443874911094685,
+      0.0756,
+      150
+    ],
+    "mono_MSA/d_cont_lp_matrix/later_minus_next1": [
+      -0.006964301145573456,
+      -0.019162959706174824,
+      0.005792155485339463,
+      0.2892,
+      150
+    ],
+    "mono_MSA/d_cont_lp_matrix_x1/next1_minus_target": [
+      -0.009114195454378155,
+      -0.01936543683967578,
+      0.0013533978925114557,
+      0.0964,
+      149
+    ],
+    "mono_MSA/d_cont_lp_matrix_x1/later_minus_target": [
+      -0.017798445071906303,
+      -0.03546184910268244,
+      -0.0003415100295862337,
+      0.0464,
+      149
+    ],
+    "mono_MSA/d_cont_lp_matrix_x1/later_minus_next1": [
+      -0.008684249617528143,
+      -0.02420344459365791,
+      0.006194039192449937,
+      0.2756,
+      149
+    ],
+    "mono_MSA/d_cont_lp_own/next1_minus_target": [
+      -0.008263168714940549,
+      -0.0186063214933003,
+      0.0023671939253558714,
+      0.1224,
+      150
+    ],
+    "mono_MSA/d_cont_lp_own/later_minus_target": [
+      -0.015227469860514006,
+      -0.030875425291607774,
+      0.001443874911094685,
+      0.0756,
+      150
+    ],
+    "mono_MSA/d_cont_lp_own/later_minus_next1": [
+      -0.006964301145573456,
+      -0.019162959706174824,
+      0.005792155485339463,
+      0.2892,
+      150
+    ],
+    "mono_MSA/d_cont_lp_all/next1_minus_target": [
+      -0.008263168714940549,
+      -0.0186063214933003,
+      0.0023671939253558714,
+      0.1224,
+      150
+    ],
+    "mono_MSA/d_cont_lp_all/later_minus_target": [
+      -0.015227469860514006,
+      -0.030875425291607774,
+      0.001443874911094685,
+      0.0756,
+      150
+    ],
+    "mono_MSA/d_cont_lp_all/later_minus_next1": [
+      -0.006964301145573456,
+      -0.019162959706174824,
+      0.005792155485339463,
+      0.2892,
+      150
+    ],
+    "mono_MSA/d_cont_lp_matrix_w1/next1_minus_target": [
+      -0.02072601220372951,
+      -0.04502414044066135,
+      0.003342810148980013,
+      0.0876,
+      132
+    ],
+    "mono_MSA/d_cont_lp_matrix_w1/later_minus_target": [
+      -0.021596429566429428,
+      -0.04599367814432039,
+      0.002739946485835719,
+      0.0776,
+      132
+    ],
+    "mono_MSA/d_cont_lp_matrix_w1/later_minus_next1": [
+      -0.0008704173626999057,
+      -0.004366541817516201,
+      0.002256669141874279,
+      0.6388,
+      132
+    ],
+    "mono_MSA/d_cont_lp_matrix_w2/next1_minus_target": [
+      -0.010399257667302115,
+      -0.025527986615638786,
+      0.003727405365685193,
+      0.1544,
+      123
+    ],
+    "mono_MSA/d_cont_lp_matrix_w2/later_minus_target": [
+      -0.018979062850518928,
+      -0.044394807138336385,
+      0.0055033808925257005,
+      0.124,
+      123
+    ],
+    "mono_MSA/d_cont_lp_matrix_w2/later_minus_next1": [
+      -0.008579805183216807,
+      -0.029525708854372605,
+      0.011518349644811285,
+      0.4172,
+      123
+    ],
+    "mono_MSA/d_cont_lp_matrix_w3/next1_minus_target": [
+      -0.0008457892835140234,
+      -0.00847299784782032,
+      0.007196237529814241,
+      0.8444,
+      120
+    ],
+    "mono_MSA/d_cont_lp_matrix_w3/later_minus_target": [
+      -0.012834488220512868,
+      -0.04234026194848119,
+      0.014705877225349329,
+      0.3672,
+      120
+    ],
+    "mono_MSA/d_cont_lp_matrix_w3/later_minus_next1": [
+      -0.011988698936998847,
+      -0.04091000153198838,
+      0.015648185443071,
+      0.3936,
+      120
+    ],
+    "mono_EGY/d_own_logit/next1_minus_target": [
+      1.652553085041046,
+      1.490296828161478,
+      1.8149832930364211,
+      0.0002,
+      150
+    ],
+    "mono_EGY/d_own_logit/later_minus_target": [
+      1.652553085041046,
+      1.490296828161478,
+      1.8149832930364211,
+      0.0002,
+      150
+    ],
+    "mono_EGY/d_own_logit/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      150
+    ],
+    "mono_EGY/d_D_to_matrix/next1_minus_target": [
+      0.08652334275245667,
+      0.06328957436998685,
+      0.10992408705552419,
+      0.0002,
+      150
+    ],
+    "mono_EGY/d_D_to_matrix/later_minus_target": [
+      0.08652334275245667,
+      0.06328957436998685,
+      0.10992408705552419,
+      0.0002,
+      150
+    ],
+    "mono_EGY/d_D_to_matrix/later_minus_next1": [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      150
+    ],
+    "mono_EGY/d_cont_lp_matrix/next1_minus_target": [
+      -0.00858051279783249,
+      -0.02023214545001587,
+      0.003440377540389691,
+      0.1624,
+      150
+    ],
+    "mono_EGY/d_cont_lp_matrix/later_minus_target": [
+      -0.0207571181178093,
+      -0.04009544599344333,
+      -0.002116971113483109,
+      0.0304,
+      150
+    ],
+    "mono_EGY/d_cont_lp_matrix/later_minus_next1": [
+      -0.012176605319976807,
+      -0.026065281625191374,
+      0.0013060225587089745,
+      0.0728,
+      150
+    ],
+    "mono_EGY/d_cont_lp_matrix_x1/next1_minus_target": [
+      -0.0069430858386706,
+      -0.020712516426121538,
+      0.0053739321042005316,
+      0.2616,
+      146
+    ],
+    "mono_EGY/d_cont_lp_matrix_x1/later_minus_target": [
+      -0.021766261524737693,
+      -0.04304569533214687,
+      -0.0011710743725248925,
+      0.0352,
+      146
+    ],
+    "mono_EGY/d_cont_lp_matrix_x1/later_minus_next1": [
+      -0.014823175686067102,
+      -0.03163509335379078,
+      0.002022728152062731,
+      0.0828,
+      146
+    ],
+    "mono_EGY/d_cont_lp_own/next1_minus_target": [
+      -0.00858051279783249,
+      -0.02023214545001587,
+      0.003440377540389691,
+      0.1624,
+      150
+    ],
+    "mono_EGY/d_cont_lp_own/later_minus_target": [
+      -0.0207571181178093,
+      -0.04009544599344333,
+      -0.002116971113483109,
+      0.0304,
+      150
+    ],
+    "mono_EGY/d_cont_lp_own/later_minus_next1": [
+      -0.012176605319976807,
+      -0.026065281625191374,
+      0.0013060225587089745,
+      0.0728,
+      150
+    ],
+    "mono_EGY/d_cont_lp_all/next1_minus_target": [
+      -0.00858051279783249,
+      -0.02023214545001587,
+      0.003440377540389691,
+      0.1624,
+      150
+    ],
+    "mono_EGY/d_cont_lp_all/later_minus_target": [
+      -0.0207571181178093,
+      -0.04009544599344333,
+      -0.002116971113483109,
+      0.0304,
+      150
+    ],
+    "mono_EGY/d_cont_lp_all/later_minus_next1": [
+      -0.012176605319976807,
+      -0.026065281625191374,
+      0.0013060225587089745,
+      0.0728,
+      150
+    ],
+    "mono_EGY/d_cont_lp_matrix_w1/next1_minus_target": [
+      -0.007261392853825407,
+      -0.031748559930416594,
+      0.016703985973973476,
+      0.5656,
+      136
+    ],
+    "mono_EGY/d_cont_lp_matrix_w1/later_minus_target": [
+      -0.009810061246047124,
+      -0.03482769949046676,
+      0.014071575558059539,
+      0.4204,
+      136
+    ],
+    "mono_EGY/d_cont_lp_matrix_w1/later_minus_next1": [
+      -0.002548668392221717,
+      -0.009378397656714214,
+      0.003119704604970598,
+      0.4004,
+      136
+    ],
+    "mono_EGY/d_cont_lp_matrix_w2/next1_minus_target": [
+      -0.008263208217150167,
+      -0.027319072740248564,
+      0.010168126421736586,
+      0.3828,
+      126
+    ],
+    "mono_EGY/d_cont_lp_matrix_w2/later_minus_target": [
+      -0.03191008772730591,
+      -0.06065138867835972,
+      -0.0042405411114783366,
+      0.0272,
+      126
+    ],
+    "mono_EGY/d_cont_lp_matrix_w2/later_minus_next1": [
+      -0.02364687951015574,
+      -0.04788035111887646,
+      0.0009301834829329019,
+      0.0588,
+      126
+    ],
+    "mono_EGY/d_cont_lp_matrix_w3/next1_minus_target": [
+      -0.00914012861996889,
+      -0.021050016252137718,
+      0.0022446088426492385,
+      0.1112,
+      110
+    ],
+    "mono_EGY/d_cont_lp_matrix_w3/later_minus_target": [
+      -0.02415467194061387,
+      -0.06782076260484754,
+      0.018524144177816077,
+      0.2884,
+      110
+    ],
+    "mono_EGY/d_cont_lp_matrix_w3/later_minus_next1": [
+      -0.015014543320644981,
+      -0.05826366780000654,
+      0.02696864206511526,
+      0.5008,
+      110
+    ]
+  },
+  "minutes": 82.0
+}

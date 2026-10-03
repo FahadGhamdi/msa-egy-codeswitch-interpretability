@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen3-8B-Base",
+  "device": "mps",
+  "n_layers_incl_emb": 37,
+  "hidden_dim": 4096,
+  "n_words": 49192,
+  "n_train_words": 15000,
+  "eval_set_sizes": {
+    "mono_test": 5960,
+    "unseen_types": 2236,
+    "ambiguous_forms": 11435,
+    "cs_words": 18649
+  },
+  "lexical_baseline": {
+    "mono_test": 0.6511770801653545,
+    "unseen_types": 0.5,
+    "ambiguous_forms": 0.5929079023258874,
+    "cs_words": 0.6150690343471906
+  },
+  "best_layer": {
+    "mono_test": 28,
+    "unseen_types": 29,
+    "ambiguous_forms": 28,
+    "cs_words": 30
+  },
+  "best_score": {
+    "mono_test": 0.9139030626612149,
+    "unseen_types": 0.9142691036285362,
+    "ambiguous_forms": 0.7693788505346191,
+    "cs_words": 0.7569900256870812
+  },
+  "n_switch_points": {
+    "MSA->EGY": 917,
+    "EGY->MSA": 751
+  },
+  "minutes": 4.5
+}

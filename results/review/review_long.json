@@ -1,0 +1,678 @@
+{
+  "R1_link_cluster": {
+    "Qwen3-8B-Base": {
+      "MSA_in_EGY/baseline(-own_logit,D)": [
+        0.34408866995073895,
+        0.20999313344985598,
+        0.475232651690529,
+        0.0005,
+        175,
+        114
+      ],
+      "MSA_in_EGY/top5(d_own_logit,d_D)": [
+        -0.5220667263770712,
+        -0.6471353155806917,
+        -0.38673075978609645,
+        0.0005,
+        175,
+        114
+      ],
+      "EGY_in_MSA/baseline(-own_logit,D)": [
+        0.34327962938105616,
+        0.1989931094633951,
+        0.47368079757161097,
+        0.0005,
+        149,
+        113
+      ],
+      "EGY_in_MSA/top5(d_own_logit,d_D)": [
+        -0.36350477240818874,
+        -0.5146476807937234,
+        -0.1867289346940699,
+        0.0005,
+        149,
+        113
+      ]
+    },
+    "ALLaM-7B-Instruct-preview": {
+      "MSA_in_EGY/baseline(-own_logit,D)": [
+        0.4688050851984403,
+        0.3385355368782636,
+        0.5817752599258044,
+        0.0005,
+        193,
+        128
+      ],
+      "MSA_in_EGY/top5(d_own_logit,d_D)": [
+        -0.8257054243897226,
+        -0.8683055863943002,
+        -0.7666463051247044,
+        0.0005,
+        193,
+        128
+      ],
+      "EGY_in_MSA/baseline(-own_logit,D)": [
+        0.23548251474255835,
+        0.08063260178558602,
+        0.37450086371941743,
+        0.005,
+        176,
+        128
+      ],
+      "EGY_in_MSA/top5(d_own_logit,d_D)": [
+        -0.5586763725052114,
+        -0.6631142929839474,
+        -0.42753147300404376,
+        0.0005,
+        176,
+        128
+      ]
+    },
+    "gemma-2-9b": {
+      "MSA_in_EGY/baseline(-own_logit,D)": [
+        0.3222558256471616,
+        0.18932405986842543,
+        0.4468971092671942,
+        0.0005,
+        187,
+        125
+      ],
+      "MSA_in_EGY/top5(d_own_logit,d_D)": [
+        -0.7752340719154075,
+        -0.8380292618373648,
+        -0.6982909471864398,
+        0.0005,
+        187,
+        125
+      ],
+      "EGY_in_MSA/baseline(-own_logit,D)": [
+        0.37322889424253736,
+        0.22201244693321692,
+        0.5022030010986095,
+        0.0005,
+        167,
+        124
+      ],
+      "EGY_in_MSA/top5(d_own_logit,d_D)": [
+        -0.6973344842246298,
+        -0.7844454711379862,
+        -0.5846624383601237,
+        0.0005,
+        167,
+        124
+      ]
+    },
+    "Fanar-1-9B": {
+      "MSA_in_EGY/baseline(-own_logit,D)": [
+        0.31272411628905633,
+        0.16734483095143754,
+        0.4520489200345533,
+        0.0005,
+        187,
+        125
+      ],
+      "MSA_in_EGY/top5(d_own_logit,d_D)": [
+        -0.7214700193423599,
+        -0.7801398656646237,
+        -0.6519997054594268,
+        0.0005,
+        187,
+        125
+      ],
+      "EGY_in_MSA/baseline(-own_logit,D)": [
+        0.2252199791293593,
+        0.07934830505024582,
+        0.3668467469038108,
+        0.002,
+        167,
+        124
+      ],
+      "EGY_in_MSA/top5(d_own_logit,d_D)": [
+        -0.42321021373082024,
+        -0.5767513200744212,
+        -0.2628472517349553,
+        0.0005,
+        167,
+        124
+      ]
+    },
+    "Fanar-1-9B__heads-gemma-2-9b": {
+      "MSA_in_EGY/baseline(-own_logit,D)": [
+        0.3155777566532946,
+        0.16910271855172748,
+        0.45413556306923475,
+        0.0005,
+        187,
+        125
+      ],
+      "MSA_in_EGY/top5(d_own_logit,d_D)": [
+        -0.7162747422547979,
+        -0.7879237273508193,
+        -0.6300272985814789,
+        0.0005,
+        187,
+        125
+      ],
+      "EGY_in_MSA/baseline(-own_logit,D)": [
+        0.22415325749475012,
+        0.07885441756838305,
+        0.36525872835185363,
+        0.002,
+        167,
+        124
+      ],
+      "EGY_in_MSA/top5(d_own_logit,d_D)": [
+        -0.6143543628657193,
+        -0.7189992283738776,
+        -0.4904412730789309,
+        0.0005,
+        167,
+        124
+      ]
+    }
+  },
+  "R2_tost": {
+    "Qwen3-8B-Base": {
+      "minimal_pairs": {
+        "diff": -0.1340052090965521,
+        "ci90": [
+          -0.23224783036349494,
+          -0.03561837092131223
+        ],
+        "ci95": [
+          -0.2533937059812015,
+          -0.0172349399775266
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          150,
+          150
+        ],
+        "margin_15": {
+          "margin": 0.08433186592132552,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 0.14055310986887587,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 0.19677435381642622,
+          "equivalent": false,
+          "beyond_margin": false
+        }
+      },
+      "natural_pull": {
+        "diff": 0.5773354149355274,
+        "ci90": [
+          -0.6109058783141039,
+          1.784172175270103
+        ],
+        "ci95": [
+          -0.8027793434797237,
+          1.980212103321406
+        ],
+        "differs_from_zero_95": false,
+        "n": [
+          199,
+          194
+        ],
+        "margin_15": {
+          "margin": 0.7692869012965647,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 1.2821448354942746,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 1.7950027696919844,
+          "equivalent": true,
+          "beyond_margin": false
+        }
+      },
+      "unintegrated_pull": {
+        "diff": 0.7347213396104753,
+        "ci90": [
+          -0.4362201305970439,
+          1.9269697655793914
+        ],
+        "ci95": [
+          -0.635583673370694,
+          2.17054826718708
+        ],
+        "differs_from_zero_95": false,
+        "n": [
+          199,
+          194
+        ],
+        "margin_15": {
+          "margin": 1.7117505799167938,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 2.8529176331946564,
+          "equivalent": true,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 3.994084686472519,
+          "equivalent": true,
+          "beyond_margin": false
+        }
+      }
+    },
+    "ALLaM-7B-Instruct-preview": {
+      "minimal_pairs": {
+        "diff": 0.06453270632230368,
+        "ci90": [
+          -0.006990203673485621,
+          0.13656822029796123
+        ],
+        "ci95": [
+          -0.020414289319732503,
+          0.15104477376863362
+        ],
+        "differs_from_zero_95": false,
+        "n": [
+          150,
+          150
+        ],
+        "margin_15": {
+          "margin": 0.08322062338475371,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 0.13870103897458952,
+          "equivalent": true,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 0.19418145456442532,
+          "equivalent": true,
+          "beyond_margin": false
+        }
+      },
+      "natural_pull": {
+        "diff": 3.7708288469507822,
+        "ci90": [
+          2.697724254996748,
+          4.814823107053044
+        ],
+        "ci95": [
+          2.530252970424424,
+          5.026616812812184
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          225,
+          243
+        ],
+        "margin_15": {
+          "margin": 0.8307669126826923,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 1.3846115211378205,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_35": {
+          "margin": 1.9384561295929486,
+          "equivalent": false,
+          "beyond_margin": true
+        }
+      },
+      "unintegrated_pull": {
+        "diff": 3.4599290162370373,
+        "ci90": [
+          2.3542609158873256,
+          4.587470627998107
+        ],
+        "ci95": [
+          2.128944585746502,
+          4.810747965639793
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          225,
+          243
+        ],
+        "margin_15": {
+          "margin": 1.7265924103589743,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 2.877654017264957,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 4.02871562417094,
+          "equivalent": false,
+          "beyond_margin": false
+        }
+      }
+    },
+    "gemma-2-9b": {
+      "minimal_pairs": {
+        "diff": -0.029030161130552457,
+        "ci90": [
+          -0.1164928995970015,
+          0.056793993182480344
+        ],
+        "ci95": [
+          -0.131663561342905,
+          0.07363530248395785
+        ],
+        "differs_from_zero_95": false,
+        "n": [
+          150,
+          150
+        ],
+        "margin_15": {
+          "margin": 0.08672410002513789,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 0.14454016670856315,
+          "equivalent": true,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 0.2023562333919884,
+          "equivalent": true,
+          "beyond_margin": false
+        }
+      },
+      "natural_pull": {
+        "diff": 2.987944764699599,
+        "ci90": [
+          1.963473054889478,
+          4.022857407426964
+        ],
+        "ci95": [
+          1.7700119473163385,
+          4.20575927304535
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          214,
+          224
+        ],
+        "margin_15": {
+          "margin": 0.6313619006130137,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 1.0522698343550227,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_35": {
+          "margin": 1.4731777680970317,
+          "equivalent": false,
+          "beyond_margin": true
+        }
+      },
+      "unintegrated_pull": {
+        "diff": 3.352288366611316,
+        "ci90": [
+          2.370372525777099,
+          4.3156923912285325
+        ],
+        "ci95": [
+          2.20639357950312,
+          4.5080449195505565
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          214,
+          224
+        ],
+        "margin_15": {
+          "margin": 1.4067514582123288,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 2.3445857636872147,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_35": {
+          "margin": 3.2824200691621006,
+          "equivalent": false,
+          "beyond_margin": false
+        }
+      }
+    },
+    "Fanar-1-9B": {
+      "minimal_pairs": {
+        "diff": 0.010594249183001558,
+        "ci90": [
+          -0.06918305379152298,
+          0.08979865970082274
+        ],
+        "ci95": [
+          -0.08324796382791831,
+          0.1051916118748291
+        ],
+        "differs_from_zero_95": false,
+        "n": [
+          150,
+          150
+        ],
+        "margin_15": {
+          "margin": 0.07676587055448908,
+          "equivalent": false,
+          "beyond_margin": false
+        },
+        "margin_25": {
+          "margin": 0.12794311759081514,
+          "equivalent": true,
+          "beyond_margin": false
+        },
+        "margin_35": {
+          "margin": 0.17912036462714118,
+          "equivalent": true,
+          "beyond_margin": false
+        }
+      },
+      "natural_pull": {
+        "diff": 4.0402555110483735,
+        "ci90": [
+          3.013584193665294,
+          5.035692165789177
+        ],
+        "ci95": [
+          2.8627600370752164,
+          5.2409556247947355
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          214,
+          224
+        ],
+        "margin_15": {
+          "margin": 0.6119592754028083,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 1.0199321256713472,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_35": {
+          "margin": 1.4279049759398859,
+          "equivalent": false,
+          "beyond_margin": true
+        }
+      },
+      "unintegrated_pull": {
+        "diff": 4.1004421435211516,
+        "ci90": [
+          3.066338174288638,
+          5.102400125844316
+        ],
+        "ci95": [
+          2.8377330282285516,
+          5.29560916205537
+        ],
+        "differs_from_zero_95": true,
+        "n": [
+          214,
+          224
+        ],
+        "margin_15": {
+          "margin": 1.5387767246767123,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_25": {
+          "margin": 2.5646278744611872,
+          "equivalent": false,
+          "beyond_margin": true
+        },
+        "margin_35": {
+          "margin": 3.5904790242456617,
+          "equivalent": false,
+          "beyond_margin": false
+        }
+      }
+    }
+  },
+  "R3_tweets": {
+    "Qwen3-8B-Base": {
+      "exp06": {
+        "MSA_in_EGY": [
+          175,
+          114
+        ],
+        "EGY_in_MSA": [
+          149,
+          113
+        ],
+        "mono_MSA": [
+          150,
+          150
+        ],
+        "mono_EGY": [
+          150,
+          150
+        ]
+      },
+      "sites_EGY_in_MSA": [
+        25,
+        23
+      ]
+    },
+    "ALLaM-7B-Instruct-preview": {
+      "exp06": {
+        "MSA_in_EGY": [
+          193,
+          128
+        ],
+        "EGY_in_MSA": [
+          176,
+          128
+        ],
+        "mono_MSA": [
+          150,
+          150
+        ],
+        "mono_EGY": [
+          150,
+          150
+        ]
+      },
+      "sites_EGY_in_MSA": [
+        26,
+        24
+      ]
+    },
+    "gemma-2-9b": {
+      "exp06": {
+        "MSA_in_EGY": [
+          187,
+          125
+        ],
+        "EGY_in_MSA": [
+          167,
+          124
+        ],
+        "mono_MSA": [
+          150,
+          150
+        ],
+        "mono_EGY": [
+          150,
+          150
+        ]
+      },
+      "sites_EGY_in_MSA": [
+        25,
+        24
+      ]
+    },
+    "Fanar-1-9B": {
+      "exp06": {
+        "MSA_in_EGY": [
+          187,
+          125
+        ],
+        "EGY_in_MSA": [
+          167,
+          124
+        ],
+        "mono_MSA": [
+          150,
+          150
+        ],
+        "mono_EGY": [
+          150,
+          150
+        ]
+      },
+      "sites_EGY_in_MSA": [
+        25,
+        24
+      ]
+    },
+    "Fanar-1-9B__heads-gemma-2-9b": {
+      "exp06": {
+        "MSA_in_EGY": [
+          187,
+          125
+        ],
+        "EGY_in_MSA": [
+          167,
+          124
+        ],
+        "mono_MSA": [
+          150,
+          150
+        ],
+        "mono_EGY": [
+          150,
+          150
+        ]
+      },
+      "sites_EGY_in_MSA": [
+        25,
+        24
+      ]
+    }
+  }
+}

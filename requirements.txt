@@ -1,0 +1,17 @@
+# Versions used for the reported runs: Python 3.11.16, torch 2.14.0, transformers 5.17.0
+torch==2.14.0
+transformers==5.17.0
+safetensors
+tokenizers
+sentencepiece
+protobuf
+huggingface_hub
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+statsmodels
+matplotlib
+arabic-reshaper
+python-bidi

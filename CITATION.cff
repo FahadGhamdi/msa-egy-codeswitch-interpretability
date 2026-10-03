@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article."
+title: "Absorbed or Anchored? Reproducibility package"
+authors:
+  - family-names: AlGhamdi
+    given-names: Fahad
+    affiliation: "Computer Science Department, Al-Baha University"
+    orcid: "https://orcid.org/0000-0002-4161-2658"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Absorbed or Anchored? How Large Language Models Represent Embedded Words in Modern Standard Arabic–Egyptian Arabic Code-Switching"
+  authors:
+    - family-names: AlGhamdi
+      given-names: Fahad
+      orcid: "https://orcid.org/0000-0002-4161-2658"
+  journal: "Applied Sciences"
+  year: 2026
+  notes: "Submitted"

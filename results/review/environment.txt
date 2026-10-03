@@ -1,0 +1,2 @@
+python 3.11.16 torch 2.14.0 transformers 5.17.0
+ALLaM-AI/ALLaM-7B-Instruct-preview revision a28dd1e67420cde72d3629c8633a974cf7d9c366

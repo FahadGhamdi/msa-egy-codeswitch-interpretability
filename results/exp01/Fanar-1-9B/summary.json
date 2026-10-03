@@ -1,0 +1,37 @@
+{
+  "model": "QCRI/Fanar-1-9B",
+  "device": "mps",
+  "n_layers_incl_emb": 43,
+  "hidden_dim": 3584,
+  "n_words": 49192,
+  "n_train_words": 15000,
+  "eval_set_sizes": {
+    "mono_test": 5960,
+    "unseen_types": 2236,
+    "ambiguous_forms": 11435,
+    "cs_words": 18649
+  },
+  "lexical_baseline": {
+    "mono_test": 0.6511770801653545,
+    "unseen_types": 0.5,
+    "ambiguous_forms": 0.5929079023258874,
+    "cs_words": 0.6150690343471906
+  },
+  "best_layer": {
+    "mono_test": 40,
+    "unseen_types": 39,
+    "ambiguous_forms": 36,
+    "cs_words": 33
+  },
+  "best_score": {
+    "mono_test": 0.9422920961038084,
+    "unseen_types": 0.9431888068880689,
+    "ambiguous_forms": 0.7962544538838479,
+    "cs_words": 0.7888396738941568
+  },
+  "n_switch_points": {
+    "MSA->EGY": 917,
+    "EGY->MSA": 751
+  },
+  "minutes": 4.8
+}

@@ -1,0 +1,8 @@
+.cache/
+data/raw/
+__pycache__/
+*.pyc
+*.pt
+*_long.csv
+experiments/logs/
+.DS_Store

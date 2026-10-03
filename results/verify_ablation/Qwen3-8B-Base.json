@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen3-8B-Base",
+  "top_heads": [
+    "L22H19",
+    "L24H27",
+    "L22H14",
+    "L23H3",
+    "L22H15"
+  ],
+  "checks": {
+    "2_layer_means_differ": true,
+    "1_ablated_slices_equal_own_layer_mean": true,
+    "3_positions_before_intervention_unchanged": true,
+    "4_non_ablated_heads_untouched_in_first_layer": true,
+    "5_later_ablation_leaves_embedded_word_unchanged": true,
+    "max_abs_deviation": {
+      "1": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0
+    },
+    "n_items": 5
+  }
+}

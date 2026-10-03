@@ -1,0 +1,24 @@
+{
+  "model": "google/gemma-2-9b",
+  "top_heads": [
+    "L29H12",
+    "L33H13",
+    "L25H3",
+    "L29H2",
+    "L29H15"
+  ],
+  "checks": {
+    "2_layer_means_differ": true,
+    "1_ablated_slices_equal_own_layer_mean": true,
+    "3_positions_before_intervention_unchanged": true,
+    "4_non_ablated_heads_untouched_in_first_layer": true,
+    "5_later_ablation_leaves_embedded_word_unchanged": true,
+    "max_abs_deviation": {
+      "1": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0
+    },
+    "n_items": 5
+  }
+}

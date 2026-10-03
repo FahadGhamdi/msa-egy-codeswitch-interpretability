@@ -1,0 +1,37 @@
+{
+  "model": "ALLaM-AI/ALLaM-7B-Instruct-preview",
+  "device": "mps",
+  "n_layers_incl_emb": 33,
+  "hidden_dim": 4096,
+  "n_words": 49192,
+  "n_train_words": 15000,
+  "eval_set_sizes": {
+    "mono_test": 5960,
+    "unseen_types": 2236,
+    "ambiguous_forms": 11435,
+    "cs_words": 18649
+  },
+  "lexical_baseline": {
+    "mono_test": 0.6511770801653545,
+    "unseen_types": 0.5,
+    "ambiguous_forms": 0.5929079023258874,
+    "cs_words": 0.6150690343471906
+  },
+  "best_layer": {
+    "mono_test": 28,
+    "unseen_types": 28,
+    "ambiguous_forms": 26,
+    "cs_words": 29
+  },
+  "best_score": {
+    "mono_test": 0.9436589734058729,
+    "unseen_types": 0.9452516400164002,
+    "ambiguous_forms": 0.794949077707556,
+    "cs_words": 0.7896576046984339
+  },
+  "n_switch_points": {
+    "MSA->EGY": 917,
+    "EGY->MSA": 751
+  },
+  "minutes": 4.9
+}

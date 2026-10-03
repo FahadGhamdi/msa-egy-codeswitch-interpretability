@@ -1,0 +1,45 @@
+{
+  "model": "ALLaM-AI/ALLaM-7B-Instruct-preview",
+  "readout_layer": 26,
+  "n_items": {
+    "MSA": 300,
+    "EGY": 289
+  },
+  "mean_prefix_tokens": {
+    "MSA": 17.606666666666666,
+    "EGY": 19.77854671280277
+  },
+  "at_R": {
+    "natural_pull": {
+      "MSA_in_EGY": 0.22463199232084055,
+      "EGY_in_MSA": 0.10241487983208968,
+      "difference": 0.12221711248875088,
+      "ci_lo": 0.06902178723524102,
+      "ci_hi": 0.17538067105069505
+    },
+    "unintegrated_pull": {
+      "MSA_in_EGY": 0.5351814196179718,
+      "EGY_in_MSA": 0.5362451726560252,
+      "difference": -0.0010637530380533944,
+      "ci_lo": -0.06623338820243016,
+      "ci_hi": 0.0635507247063347
+    }
+  },
+  "at_last_layer": {
+    "natural_pull": {
+      "MSA_in_EGY": 0.4060274505548296,
+      "EGY_in_MSA": 0.21943413859690866,
+      "difference": 0.18659331195792092,
+      "ci_lo": 0.12304393793742466,
+      "ci_hi": 0.2493377137256783
+    },
+    "unintegrated_pull": {
+      "MSA_in_EGY": 0.7757546495819891,
+      "EGY_in_MSA": 0.6397439452455376,
+      "difference": 0.13601070433645157,
+      "ci_lo": 0.06324907633442632,
+      "ci_hi": 0.20680776003035892
+    }
+  },
+  "minutes": 2.8
+}

@@ -1,0 +1,37 @@
+{
+  "model": "google/gemma-2-9b",
+  "device": "mps",
+  "n_layers_incl_emb": 43,
+  "hidden_dim": 3584,
+  "n_words": 49192,
+  "n_train_words": 15000,
+  "eval_set_sizes": {
+    "mono_test": 5960,
+    "unseen_types": 2236,
+    "ambiguous_forms": 11435,
+    "cs_words": 18649
+  },
+  "lexical_baseline": {
+    "mono_test": 0.6511770801653545,
+    "unseen_types": 0.5,
+    "ambiguous_forms": 0.5929079023258874,
+    "cs_words": 0.6150690343471906
+  },
+  "best_layer": {
+    "mono_test": 42,
+    "unseen_types": 42,
+    "ambiguous_forms": 35,
+    "cs_words": 33
+  },
+  "best_score": {
+    "mono_test": 0.9284678809177846,
+    "unseen_types": 0.924632918204182,
+    "ambiguous_forms": 0.782422362053904,
+    "cs_words": 0.7729729635495867
+  },
+  "n_switch_points": {
+    "MSA->EGY": 917,
+    "EGY->MSA": 751
+  },
+  "minutes": 5.2
+}
