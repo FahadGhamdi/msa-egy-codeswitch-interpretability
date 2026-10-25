@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ELECTRONICS_SELECTED_CURVE_RETURN_20261024_A_REVIEW_PART_002.zip",
+    "bytes": 5391447,
+    "sha256": "837b8dc050d536a686bdb20bf2b8de303aa949a79d9d2bd0b0566d654b6763b2",
+    "included_in_public_staging": false
+  },
+  {
+    "file": "ELECTRONICS_SELECTED_CURVE_RETURN_20261024_A_REVIEW_PART_001.zip",
+    "bytes": 34217644,
+    "sha256": "a039cd21a6fccd872218061e3c31aa83d7aa4ff37aeb17bfef804725ba7a47e2",
+    "included_in_public_staging": false
+  },
+  {
+    "file": "Electronics_Selected_Curve_20261024.zip",
+    "bytes": 6388401,
+    "sha256": "3e7bdc0d012a7b1feca6ee9d4ed33cb3ebdc2936251cdebe74c2912167075692",
+    "included_in_public_staging": false
+  }
+]

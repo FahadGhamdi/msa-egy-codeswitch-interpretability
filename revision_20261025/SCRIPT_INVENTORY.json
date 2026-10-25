@@ -1,0 +1,618 @@
+[
+  {
+    "path": "experiments/compare_models.py",
+    "sha256": "259adedb3d11095eadc32571858d5d62587552c28911920b968a2802cfd88537"
+  },
+  {
+    "path": "experiments/exp01_probe_switch.py",
+    "sha256": "db85f29c3d672ef1c61ac52fb32f9b1b947a0437fe88de6e50a78c92d34450bc"
+  },
+  {
+    "path": "experiments/exp01b_lexical_controls.py",
+    "sha256": "7dea3b2c0a328f2135fd86d6086a37cb53b501134c3f14ff9884363c867ac944"
+  },
+  {
+    "path": "experiments/exp02_causal_patching.py",
+    "sha256": "8c905499872261a1b8c7715b3313eaac85de48b0467364a78c86ce39773bbfa8"
+  },
+  {
+    "path": "experiments/exp03_natural_vs_controlled.py",
+    "sha256": "4e6f036d477712fa7d5658416365c47d2a33729c4edf7cd5029b5b5a375441d0"
+  },
+  {
+    "path": "experiments/exp04_probe_readout.py",
+    "sha256": "40f535b1b3fc5c108d2ec748db17536ef4af7a83cd7ab32191418ecd3a3c26af"
+  },
+  {
+    "path": "experiments/exp06_behavioral.py",
+    "sha256": "3f8ff0077ed19da0cd651c3ebe2fcc4548ed1a989d20906ea3fbdfd4400decb1"
+  },
+  {
+    "path": "experiments/exp07_lexical_controls.py",
+    "sha256": "8888e317bad532a5f8972c5e4d2c811ac5c6d5fbaa86db3d00510109d0c191ae"
+  },
+  {
+    "path": "experiments/exp07b_matching_sensitivity.py",
+    "sha256": "0bbbf9d5d20fa648c68c57d50882bb001947644df20c2a4b061cfd97f2235f56"
+  },
+  {
+    "path": "experiments/exp08_final_analyses.py",
+    "sha256": "9caf48d7f6626b07efe4b7f74c85a8774e094d6ebd2fbdc5b0e907c33cd037ff"
+  },
+  {
+    "path": "experiments/exp09_sites.py",
+    "sha256": "e1ba66af29d844dde4b90e468b435968227f8c04addc110874d22c2334f57326"
+  },
+  {
+    "path": "experiments/exp10_heads_egy.py",
+    "sha256": "1d0189758bbb21d3cccf719ba575884c09904cef4ade2ae404a60ddc32f1cee8"
+  },
+  {
+    "path": "experiments/exp11_decodability.py",
+    "sha256": "388b9f565b525c9b63fae6639a5d5d62e128a8230a60a08425d22fc00c049c52"
+  },
+  {
+    "path": "experiments/exp12_review_stats.py",
+    "sha256": "05db696eb785852042ffa92176f341246f90034629edb90cd50da82a44009023"
+  },
+  {
+    "path": "experiments/fetch_lince.py",
+    "sha256": "8c5634480bf85e90a607e5d9769372b70e3630c9bb4fe18748d0c33ce8039eed"
+  },
+  {
+    "path": "experiments/readout.py",
+    "sha256": "d7c21207f8e0f16d6acb0455c7b53357ba4010096d39268e13a0f6d8bbc2b3a0"
+  },
+  {
+    "path": "experiments/verify_ablation.py",
+    "sha256": "fed9ac5b87116ac3b729b0dba820bbdc3403e87be9d21a1b6c89d655115288eb"
+  },
+  {
+    "path": "paper/make_figures.py",
+    "sha256": "8e72290681682b740736ac2627c813e7f35a6ce54b66261be1949ddf92d97847"
+  },
+  {
+    "path": "paper/make_tables.py",
+    "sha256": "57a5ffc25ae466c4c263ee47c927b938e4275f05d001cf62e18c280cab54f10f"
+  },
+  {
+    "path": "paper/review_analyses.py",
+    "sha256": "d8f00dbf6dd821142a9209e5c40b94121cabc77c89b30f3dc9fe7f9090e8ad23"
+  },
+  {
+    "path": "portable/aoc.py",
+    "sha256": "ca26a2ab6fc017547ca61f644efe701cc22645b89b284cfcbba3a50ba7097ded"
+  },
+  {
+    "path": "portable/exp04.py",
+    "sha256": "b3de509e329800aa8401217215cfba7d966d59acb189cd2ddfe9d1be3b575353"
+  },
+  {
+    "path": "portable/plot_curves.py",
+    "sha256": "4eeaa74117a00954667145ffda1931bf44a86e3f279668a2b6b14e8a509c5394"
+  },
+  {
+    "path": "reproduce.py",
+    "sha256": "6b16ee2437bf55633b1de2123ee1fcf4f3f41da1034757666cadefad3835ac75"
+  },
+  {
+    "path": "reproduction_inputs/AOC_ISSUED/run_external.py",
+    "sha256": "8b048febc244fadf41ec12b231d24ad5eb60277f7aa40a1cee70dd1b06d53f41"
+  },
+  {
+    "path": "revision/audit/aoc_integration_20261024/build_aoc.py",
+    "sha256": "3b28d4218a9e0f381d2da000561dabf19cbfc9631309e7410a57a40e49febbba"
+  },
+  {
+    "path": "revision/audit/aoc_integration_20261024/integrate_aoc.py",
+    "sha256": "5893a3ef309d9e18040f7555bb084ca22e1d9b8e4e590b7105728d4c1b3ad4aa"
+  },
+  {
+    "path": "revision/audit/followup_20261024/build_followup.py",
+    "sha256": "39d452e99454deb52ec5b50b85b87c17f5ed18c4a45b370625fa72bc8c9ce104"
+  },
+  {
+    "path": "revision/audit/followup_20261024/followup_edit.py",
+    "sha256": "d464cc7eaed85a09c1bbf47202fbdb922e75f5930b2134c029dcaf2be853c0ec"
+  },
+  {
+    "path": "revision/audit/integration_20261024/build_integrated.py",
+    "sha256": "c0c7dd50d2ff5dfa579f45152e7f997b331aaf6cfc091c615be77c691d878da5"
+  },
+  {
+    "path": "revision/audit/integration_20261024/integrate_revision.py",
+    "sha256": "f6f9633a043dd0cb726a28d031d624141299a42134b09a72f01c2120680f36b0"
+  },
+  {
+    "path": "revision/audit/qwen_replay_20261021/verify_received.py",
+    "sha256": "93c33c0dde3912bc8376679a16469df9174d3b8361081514a4a4954ac45e8eba"
+  },
+  {
+    "path": "revision/audit/reviewer_match_20261024/build_reviewer.py",
+    "sha256": "282563da0d773f8e42f45e3baf9afbc1b4187e2d7144d0329cae4acc3bad6dd6"
+  },
+  {
+    "path": "revision/audit/reviewer_match_20261024/reconcile_reviews.py",
+    "sha256": "6423b64fef29544826cfb3892cf1f5ae66550d1baef14a3990eb343bf7afcacf"
+  },
+  {
+    "path": "revision/audit/reviewer_match_20261024/reviewer_mapping.py",
+    "sha256": "2bdf18c43258973a8a596d037517c55409769674557cf4120d673a4129ec2717"
+  },
+  {
+    "path": "revision/protocols/prediction_robustness_20261022/code/pilot.py",
+    "sha256": "00f25fb15cfcd6588b81b471e72b50a46a3dba87e768332f571cc636a914f9a9"
+  },
+  {
+    "path": "revision/protocols/prediction_robustness_20261022/code/prepare.py",
+    "sha256": "5508af2e2c4720cbe45e4cb1dfb54e69022def5f85ef7369044341b3154c18e6"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/additional_audit.py",
+    "sha256": "4a4d977a4880930925864193d0f06a00d84b15f97a8762a0ff7b106735c36930"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/analyze_verify.py",
+    "sha256": "bea81cfacfcac89a9231d33216ad50b83542a0fe99016d4c69945b32a97af02e"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/common.py",
+    "sha256": "f15f1f4c1a523d6770fefcacf399abd677ab395a951238dd9c694baa7e200c63"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/infer.py",
+    "sha256": "4f843faf01d4d747c1025744f78d0d1039e42d13cea32dd24cff3681b2f5739f"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/package.py",
+    "sha256": "678c3de9b88f793240a8ac0249765801c96faed3c916df808faba647b0bf6c57"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/prepare.py",
+    "sha256": "4a046529e7d62d2c5190e1774f25c61341a14f4af35c07f3dd14c8f8068277e3"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision/protocols/three_model_head_stability/qwen_reference_code/verify_selection_freeze.py",
+    "sha256": "21f7843cfa5f96cb7757c4bfd44058754cdff53eae86eca4a5a28eb9be2e1099"
+  },
+  {
+    "path": "revision/results/ALLaM-7B-Instruct-preview_controls_20261022/audit_and_fit.py",
+    "sha256": "3d5df025f573dc4c9ad16d44da216b7da7608d1a5616171e0fc687909754f8e4"
+  },
+  {
+    "path": "revision/results/ALLaM-7B-Instruct-preview_controls_20261022/summarize.py",
+    "sha256": "c1ae3ca5f351930f4b8d6be57cfa9b8b25bccb10106dc5412dc7e12d80fd5984"
+  },
+  {
+    "path": "revision/results/ALLaM-7B-Instruct-preview_controls_20261022/verify_analysis.py",
+    "sha256": "818ab476c634ee979d184184492d39e60be3fbf800ca732f5e6e5b7f3790afe7"
+  },
+  {
+    "path": "revision/results/Fanar-1-9B_controls_20261022/audit_and_fit.py",
+    "sha256": "06513eca32af90f44b363141630ec62193ea975409ade9c2b871b607bea6596b"
+  },
+  {
+    "path": "revision/results/Fanar-1-9B_controls_20261022/summarize.py",
+    "sha256": "c1ae3ca5f351930f4b8d6be57cfa9b8b25bccb10106dc5412dc7e12d80fd5984"
+  },
+  {
+    "path": "revision/results/Fanar-1-9B_controls_20261022/verify_analysis.py",
+    "sha256": "979b4d72abd4795540fc2760cf3d85695acbe4b6b15605c645a411f780626aab"
+  },
+  {
+    "path": "revision/results/aoc_external_20261024/analyze.py",
+    "sha256": "90e5128523508addb535629fc105be261f6751f5d8cf25e7d80a0ce2bce8b346"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision/results/gemma-2-9b_controls_20261022/audit_and_fit.py",
+    "sha256": "3cc5b324a553466fefe621d9ae20b52c56031a079b834334f7393d1071ea3866"
+  },
+  {
+    "path": "revision/results/gemma-2-9b_controls_20261022/summarize.py",
+    "sha256": "c1ae3ca5f351930f4b8d6be57cfa9b8b25bccb10106dc5412dc7e12d80fd5984"
+  },
+  {
+    "path": "revision/results/gemma-2-9b_controls_20261022/verify_analysis.py",
+    "sha256": "f655b4d1e36a73f8e854554bd08ee88008ef11ffaade9b8a3f102fa5bf3f6caa"
+  },
+  {
+    "path": "revision/results/qwen_features_analysis_20261022/audit_and_fit.py",
+    "sha256": "64936477c257dd91cab241cd12c4ca91052c8874fa0443180d09cbef886d6e48"
+  },
+  {
+    "path": "revision/results/qwen_features_analysis_20261022/integrate.py",
+    "sha256": "6c9d62995eccd60783a21e41d5176212e5c630be08109fabe8bd848177aa6bd9"
+  },
+  {
+    "path": "revision/results/qwen_features_analysis_20261022/prepare_expansion.py",
+    "sha256": "464a960557aed0b54119a19af9d9d04e240d87f927ccac6aae05625001a991bb"
+  },
+  {
+    "path": "revision/results/qwen_features_analysis_20261022/summarize.py",
+    "sha256": "c1ae3ca5f351930f4b8d6be57cfa9b8b25bccb10106dc5412dc7e12d80fd5984"
+  },
+  {
+    "path": "revision/results/qwen_features_analysis_20261022/verify_analysis.py",
+    "sha256": "eb2797340eb201e797707e478879c8937efd517aa45080904dbc85b4054f5a7b"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/additional_audit.py",
+    "sha256": "4a4d977a4880930925864193d0f06a00d84b15f97a8762a0ff7b106735c36930"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/analyze_verify.py",
+    "sha256": "bea81cfacfcac89a9231d33216ad50b83542a0fe99016d4c69945b32a97af02e"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/common.py",
+    "sha256": "f15f1f4c1a523d6770fefcacf399abd677ab395a951238dd9c694baa7e200c63"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/infer.py",
+    "sha256": "4f843faf01d4d747c1025744f78d0d1039e42d13cea32dd24cff3681b2f5739f"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/package.py",
+    "sha256": "678c3de9b88f793240a8ac0249765801c96faed3c916df808faba647b0bf6c57"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/prepare.py",
+    "sha256": "4a046529e7d62d2c5190e1774f25c61341a14f4af35c07f3dd14c8f8068277e3"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision/results/qwen_head_stability_20261022/received_evidence/code/verify_selection_freeze.py",
+    "sha256": "21f7843cfa5f96cb7757c4bfd44058754cdff53eae86eca4a5a28eb9be2e1099"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Independent_Review_20261024/audit_stored_arrays.py",
+    "sha256": "c6b08778734566fe8072ce75ab4ae0e0e792ff661c7ac7c53b98ecda0b885704"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/analyze_qwen_stage1.py",
+    "sha256": "a8c71865fc89cc68889b5d3adce49da9196a3b793ff7b4d0b7936fedd3ff33ab"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/check_qwen_stage1_analysis.py",
+    "sha256": "ecda48b012276759b5369c08781b08d0974b7142777cdb3e24920a5655f72990"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Selected_Curve_Independent_Review_20261024/audit_independent.py",
+    "sha256": "2a3f13bd94745e25f23a134ae90c1d993fb0f57b57b2d21ff9765ea7dad15e9c"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Selected_Curve_Independent_Review_20261024/make_review_figures.py",
+    "sha256": "e026a2b8401031e1136392a8c16912d463e849a5993239826d8c0edb76bf4cb2"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/analyze_allam.py",
+    "sha256": "4d200e6092db6e356e2a18ae56de956f93966f2c5c703daa8f6b3d91f6889201"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/build_allam_analysis.py",
+    "sha256": "24955eb1aa7bc913c74056c908954e185b2f4b874577f9597f3632df00c46b55"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/check_allam_analysis.py",
+    "sha256": "1b882d78d1c2b44c80dbe514cf8fc4ceb92b314efa20384e7ecb647147c9a55d"
+  },
+  {
+    "path": "revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/review_three_model_return.py",
+    "sha256": "2d397c89b81b473902f5de6630f0e51977bd18978564850ab314f29e81ca795e"
+  },
+  {
+    "path": "revision/scripts/analyze_exp04_linkage.py",
+    "sha256": "ebc2d89d50944756d6dfd8f4f15889ba4e124bce312f8b2a78f830cdd457acee"
+  },
+  {
+    "path": "revision/scripts/audit_independent_dacs.py",
+    "sha256": "0c629a7158be4dd0978ff51d013aaeae27a25ca59df368e9ed4db5370e38d5bb"
+  },
+  {
+    "path": "revision/scripts/audit_qwen_head_stability.py",
+    "sha256": "7a408c74498e5cb51343c0a577ec26dd212e2b4724abf5491c327d911d6b69c5"
+  },
+  {
+    "path": "revision/scripts/audit_reference_metadata_round2.py",
+    "sha256": "afd9bd3e682a49d8eabfa816656d1b5a76d3a8a640e8935f369dbc2f93781318"
+  },
+  {
+    "path": "revision/scripts/audit_three_model_head_core.py",
+    "sha256": "c00dbadb6db09d7d64bd9c6a5c6626d0d95512a7ac150e0af8b4af3bf456e589"
+  },
+  {
+    "path": "revision/scripts/audit_three_model_replays.py",
+    "sha256": "6ca2e40f23c86de4e170a10d785397078759dc0b251d2657268d04322a09fc4a"
+  },
+  {
+    "path": "revision/scripts/build_editorial_round2_pdf.py",
+    "sha256": "1edb9c60a4815649188c91e297f6cf940fb6f71edff49f2ae23853b1f8fa40b8"
+  },
+  {
+    "path": "revision/scripts/build_four_head_pdf.py",
+    "sha256": "82661fe606c030111be7a6e64fe52e2e8a32fef0260903f054f19a26bab01cf2"
+  },
+  {
+    "path": "revision/scripts/build_prediction_task.py",
+    "sha256": "68f1ddf94e2a7ca6322970233e4cde9cb9ca19ab13c7a0f2dfbcd76807299894"
+  },
+  {
+    "path": "revision/scripts/build_revision_tables.py",
+    "sha256": "c755bb8fcf64d0b1bcf95e5e60f0b5c6c33cbb7c5fae9750f300f3120549ccd9"
+  },
+  {
+    "path": "revision/scripts/build_status.py",
+    "sha256": "75d9de628223ef5e1edc15370eab851414b86278415d53cd8b6dc87aff96c506"
+  },
+  {
+    "path": "revision/scripts/collect_local_evidence.py",
+    "sha256": "5834b6b49e668325ef0edb63be0f28395255140b0a681d68b19c26961a90b0f4"
+  },
+  {
+    "path": "revision/scripts/combine_four_model_controls.py",
+    "sha256": "a9d74c5371112382b682d1aed951f369b94b78a033d939b259772a4d11c81745"
+  },
+  {
+    "path": "revision/scripts/edit_manuscript.py",
+    "sha256": "66713062e42de9bd355541da130627b15d094360e9e90f5603887647c12781ed"
+  },
+  {
+    "path": "revision/scripts/editorial_round2.py",
+    "sha256": "a4dc5fe6be934c350402d6e04659e842e18dbf0cddc59ac4e8b1f393b968f85e"
+  },
+  {
+    "path": "revision/scripts/fetch_reference_pages.py",
+    "sha256": "2d31645f1002d98693bafdc7723487f4fca1bbf72e75116268ec783fb5427510"
+  },
+  {
+    "path": "revision/scripts/fetch_revision_sources.py",
+    "sha256": "bb8ecd67fd85eaedbf1b5150338524c128aef6aaea6fdd23dce32a0830d2ff10"
+  },
+  {
+    "path": "revision/scripts/finalize_four_head_status.py",
+    "sha256": "ecac78ea1fef92d63e2a80e48e88e28934499205db798bc400b166dc6aff58a8"
+  },
+  {
+    "path": "revision/scripts/finalize_prediction_checkpoint.py",
+    "sha256": "53b0e30608dd455fb4c9c6e70e25e523d6c0970feb9c8b53f5aa808e5c3f2da6"
+  },
+  {
+    "path": "revision/scripts/finalize_reference_round2.py",
+    "sha256": "49998af02bd8f70c9a9a6b67a4e93594e47cc7135760b20ab3ab6f02ca955a38"
+  },
+  {
+    "path": "revision/scripts/integrate_exp04_linked.py",
+    "sha256": "15e7c361fc0760d5ab35d83dcf26043b8a5565505b847a938bee31d1e3a1e61d"
+  },
+  {
+    "path": "revision/scripts/integrate_four_model_controls.py",
+    "sha256": "26119b4e944e5d6119304d4ddfdc8a217988d05b431a1f5ba031a2ec63aad021"
+  },
+  {
+    "path": "revision/scripts/integrate_four_model_head_stability.py",
+    "sha256": "873a39cc890888dcd64625bdf7527266d5101ae4fc48c3a88bc23ba66059a6a8"
+  },
+  {
+    "path": "revision/scripts/integrate_qwen_head_stability.py",
+    "sha256": "98c27380e47847ce607dbc6174900465e875abb3364da108c1916452c7252c48"
+  },
+  {
+    "path": "revision/scripts/package_four_head_checkpoint.py",
+    "sha256": "2f06b25fcfa7ac6a7bcb329318ff7b80ec2b2fb90d0e1d9e7770579cd4d4db74"
+  },
+  {
+    "path": "revision/scripts/package_four_model_checkpoint.py",
+    "sha256": "f86c0dd555117f3b82ca6df4a819e52d6edce642ef1add718eb63d4559e8c17a"
+  },
+  {
+    "path": "revision/scripts/package_head_stability_checkpoint.py",
+    "sha256": "f183c89ce44f89cf04ee882c59ff3b5b3ebaaad70497ca684a6b821200467cc0"
+  },
+  {
+    "path": "revision/scripts/package_prediction_checkpoint.py",
+    "sha256": "e55e5682a5c39437145abb51ce670e597a5c30b37154890fdebdbd3920431e6d"
+  },
+  {
+    "path": "revision/scripts/reconcile_received_evidence.py",
+    "sha256": "efab822269ad3f6e1538d29ea432235fe920e75558c3a45ae3545a63955a7460"
+  },
+  {
+    "path": "revision/scripts/reference_inventory.py",
+    "sha256": "8376fc4d7fce0f646a7d66a82622651960c7a6291bb6c2aecbcdedf4ae55f015"
+  },
+  {
+    "path": "revision/scripts/saved_data_checks.py",
+    "sha256": "051d1b5bdfcbb6e544c40fe509dd11ec596ac776be291118269c834530f9f70b"
+  },
+  {
+    "path": "revision/scripts/verify_head_direction_contributions.py",
+    "sha256": "7708bf987135fb4d3b85d87f1a1686b98778a9f74d178dafc89d7626113f640e"
+  }
+]

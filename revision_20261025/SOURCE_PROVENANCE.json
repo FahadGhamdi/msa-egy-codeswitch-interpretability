@@ -1,0 +1,402 @@
+[
+  {
+    "path": "revision_20261025/source/portable/aoc.py",
+    "source": "Reproduction/portable/aoc.py",
+    "sha256": "ca26a2ab6fc017547ca61f644efe701cc22645b89b284cfcbba3a50ba7097ded"
+  },
+  {
+    "path": "revision_20261025/source/portable/exp04.py",
+    "source": "Reproduction/portable/exp04.py",
+    "sha256": "b3de509e329800aa8401217215cfba7d966d59acb189cd2ddfe9d1be3b575353"
+  },
+  {
+    "path": "revision_20261025/source/portable/plot_curves.py",
+    "source": "Reproduction/portable/plot_curves.py",
+    "sha256": "4eeaa74117a00954667145ffda1931bf44a86e3f279668a2b6b14e8a509c5394"
+  },
+  {
+    "path": "revision_20261025/source/reproduction_inputs/AOC_ISSUED/run_external.py",
+    "source": "Reproduction/reproduction_inputs/AOC_ISSUED/run_external.py",
+    "sha256": "8b048febc244fadf41ec12b231d24ad5eb60277f7aa40a1cee70dd1b06d53f41"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/prediction_robustness_20261022/code/pilot.py",
+    "source": "Reproduction/revision/protocols/prediction_robustness_20261022/code/pilot.py",
+    "sha256": "00f25fb15cfcd6588b81b471e72b50a46a3dba87e768332f571cc636a914f9a9"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/prediction_robustness_20261022/code/prepare.py",
+    "source": "Reproduction/revision/protocols/prediction_robustness_20261022/code/prepare.py",
+    "sha256": "5508af2e2c4720cbe45e4cb1dfb54e69022def5f85ef7369044341b3154c18e6"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/additional_audit.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/additional_audit.py",
+    "sha256": "4a4d977a4880930925864193d0f06a00d84b15f97a8762a0ff7b106735c36930"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/analyze_verify.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/analyze_verify.py",
+    "sha256": "bea81cfacfcac89a9231d33216ad50b83542a0fe99016d4c69945b32a97af02e"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/common.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/common.py",
+    "sha256": "f15f1f4c1a523d6770fefcacf399abd677ab395a951238dd9c694baa7e200c63"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/infer.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/infer.py",
+    "sha256": "4f843faf01d4d747c1025744f78d0d1039e42d13cea32dd24cff3681b2f5739f"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/launch.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/original_direction_selection.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/original_helpers.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/package.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/package.py",
+    "sha256": "678c3de9b88f793240a8ac0249765801c96faed3c916df808faba647b0bf6c57"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/prepare.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/prepare.py",
+    "sha256": "4a046529e7d62d2c5190e1774f25c61341a14f4af35c07f3dd14c8f8068277e3"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/verify_return.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision_20261025/source/revision/protocols/three_model_head_stability/qwen_reference_code/verify_selection_freeze.py",
+    "source": "Reproduction/revision/protocols/three_model_head_stability/qwen_reference_code/verify_selection_freeze.py",
+    "sha256": "21f7843cfa5f96cb7757c4bfd44058754cdff53eae86eca4a5a28eb9be2e1099"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/additional_audit.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/analyze_verify.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/common.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/infer.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/launch.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_direction_selection.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_helpers.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/package.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/prepare.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/run_model_orchestrator.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/setup_adapter.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_return.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_selection_freeze.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/ALLaM-7B-Instruct-preview/ELECTRONICS_HEAD_STABILITY_ALLaM-7B-Instruct-preview_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/additional_audit.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/analyze_verify.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/common.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/infer.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/launch.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_direction_selection.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_helpers.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/package.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/prepare.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/run_model_orchestrator.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/setup_adapter.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_return.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_selection_freeze.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/Fanar-1-9B/ELECTRONICS_HEAD_STABILITY_Fanar-1-9B_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/additional_audit.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/additional_audit.py",
+    "sha256": "e5b09b6d4b4c72acd2170dd1d13ad473bbf3899fdfbf82d4b38e74f4f5b3bad8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/analyze_verify.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/analyze_verify.py",
+    "sha256": "13b5510afe8a79f4ae8421fa9407e155bf320c3133c1d7ccf211eefe38ca5a33"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/common.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/common.py",
+    "sha256": "8718fe1bc7964523085ac371ed02de88258ece7df0c9d39bc81d4082bbd2b9bf"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/infer.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/infer.py",
+    "sha256": "7c753548824b9d415d64cbccbce792b29e29e747d5f74e4a21b25aea8de02c51"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/launch.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_direction_selection.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_helpers.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/package.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/package.py",
+    "sha256": "06b79f6721e7ec514a17196d0749ee34fe5d45043478777f969d1145fc4d85c8"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/prepare.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/prepare.py",
+    "sha256": "95b91ba63058fe4c204483479170e5c17c3ab9c816b6560df293b1579eef8175"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/run_model_orchestrator.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/run_model_orchestrator.py",
+    "sha256": "954098e0ca1e83beb6259b25b56a5860a60e39811a9792fbe2f88d88fb9b5060"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/setup_adapter.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/setup_adapter.py",
+    "sha256": "fa286de86d8c9bfdc8e2637f1ba22df9cc3192c9a071a77f77d72c627b29ef83"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_return.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_selection_freeze.py",
+    "source": "Reproduction/revision/results/four_model_head_stability_20261022/received_core/gemma-2-9b/ELECTRONICS_HEAD_STABILITY_gemma-2-9b_20261021T223239Z/code/verify_selection_freeze.py",
+    "sha256": "907c2759c238410e82ea95f90849f1a8e97bc432f8c4b2c0407b20994bb95ab7"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/additional_audit.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/additional_audit.py",
+    "sha256": "4a4d977a4880930925864193d0f06a00d84b15f97a8762a0ff7b106735c36930"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/analyze_verify.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/analyze_verify.py",
+    "sha256": "bea81cfacfcac89a9231d33216ad50b83542a0fe99016d4c69945b32a97af02e"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/common.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/common.py",
+    "sha256": "f15f1f4c1a523d6770fefcacf399abd677ab395a951238dd9c694baa7e200c63"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/infer.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/infer.py",
+    "sha256": "4f843faf01d4d747c1025744f78d0d1039e42d13cea32dd24cff3681b2f5739f"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/launch.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/launch.py",
+    "sha256": "ed6cd055b890bed49b1130cb05f31c0d96e31fb91da4bf217e25f2715b7f908b"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/original_direction_selection.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/original_direction_selection.py",
+    "sha256": "669e2d69350ccf5753c0feb6053adcda266afbc16fc5f409d0542b003a738c1f"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/original_helpers.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/original_helpers.py",
+    "sha256": "d799f24b7d8fa11eb7d2aeb60a63da87decaa18fea90a3f24a3f3485897d70ee"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/package.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/package.py",
+    "sha256": "678c3de9b88f793240a8ac0249765801c96faed3c916df808faba647b0bf6c57"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/prepare.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/prepare.py",
+    "sha256": "4a046529e7d62d2c5190e1774f25c61341a14f4af35c07f3dd14c8f8068277e3"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/verify_return.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/verify_return.py",
+    "sha256": "e435a25d05ae39a057d0c0416c74fe2be7508048ac63fa326e9cefbd86518192"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/qwen_head_stability_20261022/received_evidence/code/verify_selection_freeze.py",
+    "source": "Reproduction/revision/results/qwen_head_stability_20261022/received_evidence/code/verify_selection_freeze.py",
+    "sha256": "21f7843cfa5f96cb7757c4bfd44058754cdff53eae86eca4a5a28eb9be2e1099"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/analyze_qwen_stage1.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/analyze_qwen_stage1.py",
+    "sha256": "a8c71865fc89cc68889b5d3adce49da9196a3b793ff7b4d0b7936fedd3ff33ab"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/check_qwen_stage1_analysis.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/code/check_qwen_stage1_analysis.py",
+    "sha256": "ecda48b012276759b5369c08781b08d0974b7142777cdb3e24920a5655f72990"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/analyze_allam.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/analyze_allam.py",
+    "sha256": "4d200e6092db6e356e2a18ae56de956f93966f2c5c703daa8f6b3d91f6889201"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/build_allam_analysis.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/build_allam_analysis.py",
+    "sha256": "24955eb1aa7bc913c74056c908954e185b2f4b874577f9597f3632df00c46b55"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/check_allam_analysis.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/check_allam_analysis.py",
+    "sha256": "1b882d78d1c2b44c80dbe514cf8fc4ceb92b314efa20384e7ecb647147c9a55d"
+  },
+  {
+    "path": "revision_20261025/source/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/review_three_model_return.py",
+    "source": "Reproduction/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023/code/review_three_model_return.py",
+    "sha256": "2d397c89b81b473902f5de6630f0e51977bd18978564850ab314f29e81ca795e"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/analyze_exp04_linkage.py",
+    "source": "Reproduction/revision/scripts/analyze_exp04_linkage.py",
+    "sha256": "ebc2d89d50944756d6dfd8f4f15889ba4e124bce312f8b2a78f830cdd457acee"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/audit_qwen_head_stability.py",
+    "source": "Reproduction/revision/scripts/audit_qwen_head_stability.py",
+    "sha256": "7a408c74498e5cb51343c0a577ec26dd212e2b4724abf5491c327d911d6b69c5"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/audit_three_model_head_core.py",
+    "source": "Reproduction/revision/scripts/audit_three_model_head_core.py",
+    "sha256": "c00dbadb6db09d7d64bd9c6a5c6626d0d95512a7ac150e0af8b4af3bf456e589"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/build_revision_tables.py",
+    "source": "Reproduction/revision/scripts/build_revision_tables.py",
+    "sha256": "c755bb8fcf64d0b1bcf95e5e60f0b5c6c33cbb7c5fae9750f300f3120549ccd9"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/combine_four_model_controls.py",
+    "source": "Reproduction/revision/scripts/combine_four_model_controls.py",
+    "sha256": "a9d74c5371112382b682d1aed951f369b94b78a033d939b259772a4d11c81745"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/saved_data_checks.py",
+    "source": "Reproduction/revision/scripts/saved_data_checks.py",
+    "sha256": "051d1b5bdfcbb6e544c40fe509dd11ec596ac776be291118269c834530f9f70b"
+  },
+  {
+    "path": "revision_20261025/source/revision/scripts/verify_head_direction_contributions.py",
+    "source": "Reproduction/revision/scripts/verify_head_direction_contributions.py",
+    "sha256": "7708bf987135fb4d3b85d87f1a1686b98778a9f74d178dafc89d7626113f640e"
+  }
+]
