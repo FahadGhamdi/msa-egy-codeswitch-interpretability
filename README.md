@@ -84,3 +84,20 @@ See `CITATION.cff`. Please cite the article and the LinCE benchmark.
 ## License
 
 The code is released under the MIT License (see `LICENSE`). LinCE data remain subject to the terms of their maintainers.
+
+## Revision analyses — 25 October 2026
+
+The revision code, aggregate results and documentation are available in
+[`revision_20261025/`](revision_20261025/README.md).
+
+The independently audited R1.4 extension includes size-matched random
+controls at k = 1, 10 and 20 for all four models. The complete selected-head
+curves and the limited random-control comparisons are distinct analyses.
+Intervals are pointwise and conditional on the frozen random draws.
+
+The original submitted version remains identifiable by commit:
+`39757498a7dc76a5a634e93f1f9c0f865d1f7bab`.
+
+Restricted corpus texts, tokenized inputs and model weights are not
+redistributed. Some analyses require separately obtained inputs; see the
+revision documentation for requirements and limitations.

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_001.zip",
+    "bytes": 41794688,
+    "sha256": "5084ec1f79252276dc83fc54fd73b13ab6cfde767e90fe275d90aec93a140965",
+    "file_count": 408,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_002.zip",
+    "bytes": 41836726,
+    "sha256": "dddba7cd1dacafb89f23956553ecc6f1a6899827e372e8f67853c8c51443c400",
+    "file_count": 398,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_003.zip",
+    "bytes": 41828947,
+    "sha256": "cfa10f67631cac3c92bda47b9e8867b15db3d657c9158290afae9891939e8db9",
+    "file_count": 398,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_004.zip",
+    "bytes": 41828320,
+    "sha256": "09a6dfc603d6347c6d3524772c713f80d909b7224327d7d00d0a2160355760d9",
+    "file_count": 408,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_005.zip",
+    "bytes": 39056757,
+    "sha256": "e63f569a188a9f862b2aad3cdea7a1c42ec7c9b6691749277168fde465ac2500",
+    "file_count": 365,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_006.zip",
+    "bytes": 41845841,
+    "sha256": "44c7cdb416747608fd6f2b9ab9cadef8b18363fe4cdb25c0cdb4e092ebf99949",
+    "file_count": 379,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_007.zip",
+    "bytes": 41785114,
+    "sha256": "2561f431fbd568e5fd5d4f43d5f434aa62fda27d274df8d48723aca7a212db53",
+    "file_count": 386,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "name": "ELECTRONICS_COMPLETION_REVIEW_PART_008.zip",
+    "bytes": 20459745,
+    "sha256": "fb2e0b4f825889cbe4228225d8457239d03b8665d26a24f7dc03209d8db1e907",
+    "file_count": 191,
+    "CRC_verified": true,
+    "content_verified_against_original": true
+  },
+  {
+    "library_id": "libfile_af4b18a021648191b403b19054f9f2c1",
+    "sha256": "d1af50d2d9925e63522438102486d07fdd5ff147c2b7b3836a5e0de368c5f52e",
+    "bytes": 158116292,
+    "name": "ELECTRONICS_THREE_MODEL_RUN_OUTPUT_20261023_REVIEW.zip"
+  }
+]

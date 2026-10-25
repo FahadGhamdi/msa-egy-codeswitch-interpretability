@@ -1,0 +1,1 @@
+Portable scripts only. Input archives listed in REQUIRED_CURVE_ARCHIVES.json and STAGE1_INPUT_INDEX.json are NOT redistributed in this public staging directory. Supply authorized archives and use the explicit CLI arguments described by --help. Aggregate outputs are in ../aggregate_results. Code availability alone does not imply unrestricted access to all raw inputs.

@@ -1,0 +1,254 @@
+[
+  {
+    "table": "1",
+    "page": "3",
+    "label": "tab:examples",
+    "rendering_source": [
+      "revision/manuscript/main.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "2",
+    "page": "6",
+    "label": "tab:samples",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_samples.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "3",
+    "page": "7",
+    "label": "tab:data",
+    "rendering_source": [
+      "revision/manuscript/main.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "4",
+    "page": "8",
+    "label": "tab:models",
+    "rendering_source": [
+      "revision/manuscript/main.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "5",
+    "page": "15",
+    "label": "tab:representation",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_representation.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "6",
+    "page": "17",
+    "label": "tab:decode",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_decode.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "7",
+    "page": "18",
+    "label": "tab:local",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_local.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "8",
+    "page": "18",
+    "label": "tab:regression",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_regression.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "9",
+    "page": "19",
+    "label": "tab:matching",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_matching.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "10",
+    "page": "20",
+    "label": "tab:tost",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_tost.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "11",
+    "page": "22",
+    "label": "tab:patching",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_patching.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "12",
+    "page": "23",
+    "label": "tab:link",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_link.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "13",
+    "page": "24",
+    "label": "tab:ablation",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_ablation.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "14",
+    "page": "26",
+    "label": "tab:aoc-primary",
+    "rendering_source": [
+      "revision/manuscript/main.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A2",
+    "page": "30",
+    "label": "tab:wordclass",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_wordclass.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A1",
+    "page": "31",
+    "label": "tab:audit",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_audit.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A3",
+    "page": "31",
+    "label": "tab:dla",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_dla.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A4",
+    "page": "32",
+    "label": "tab:exploratory",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_exploratory.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A5",
+    "page": "34",
+    "label": "tab:revision_exp04_ties",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_revision_exp04_ties.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A6",
+    "page": "35",
+    "label": "tab:sites",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_sites.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A7",
+    "page": "37",
+    "label": "tab:distance",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_distance.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A8",
+    "page": "38",
+    "label": "tab:wordcontext-own",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_wordcontext_own.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A9",
+    "page": "38",
+    "label": "tab:wordcontext-matrix",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_wordcontext_matrix.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A10",
+    "page": "39",
+    "label": "tab:wordcontext-projection",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_wordcontext_projection.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A11",
+    "page": "40",
+    "label": "tab:four-head-stability",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_four_head_stability.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A12",
+    "page": "41",
+    "label": "tab:fp32-means",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_fp32_means.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A13",
+    "page": "42",
+    "label": "tab:fp32-d",
+    "rendering_source": [
+      "revision/manuscript/tables/tab_fp32_d.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  },
+  {
+    "table": "A14",
+    "page": "45",
+    "label": "tab:aoc-matched",
+    "rendering_source": [
+      "revision/manuscript/main.tex"
+    ],
+    "coverage": "Consult REPRODUCTION_GUIDE_AR.txt; rendering source is not proof of raw-data recomputation"
+  }
+]

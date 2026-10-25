@@ -1,0 +1,29 @@
+Portable Stage1 audit — tested individual commands, no model inference
+
+Python 3, numpy and scipy are required. Run from this release's root. Use new output directories. The scripts stop on missing or changed input and do not retry automatically. Commands below use YOUR_ARCHIVES and NEW_STAGE1 as user-chosen directory placeholders; replace them with actual paths.
+
+1. Place the nine already received archives listed in STAGE1_INPUT_INDEX.json under YOUR_ARCHIVES (subdirectories are allowed). IDs and SHA256 hashes identify them unambiguously. These large inputs were retrieved and checked for this audit; they are not missing and need not be uploaded again.
+
+python3 reproducibility_extension/prepare_stage1_inputs.py --archives YOUR_ARCHIVES --out NEW_STAGE1/prepared
+
+This validates all nine outer hashes, all 2932 completion payloads, per-part manifests and nonoverlapping item IDs; merges complete Gemma/Fanar parts; and extracts the nested ALLaM core.
+
+2. Qwen's complete session-03 core is already in the cumulative reproduction tree. Extract it to a new location:
+
+python3 -m zipfile -e Reproduction/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022/received/ELECTRONICS_QWEN_FP32_STAGE1_20261022T113131Z_REVIEW_CORE_SESSION_03.zip NEW_STAGE1/qwen
+
+Expected source archive SHA256: 7e59e13c8aa100102dd86a9ad376b912bd4f632fe896c3faa8409c505a57615d.
+
+3. Recompute each model, retaining its original audited comparator:
+
+python3 reproducibility_extension/reproduce_stage1.py --input NEW_STAGE1/qwen/ELECTRONICS_QWEN_FP32_STAGE1_20261022T113131Z --out NEW_STAGE1/analysis/Qwen --expected Reproduction/revision/results/review_integration_20261024/Electronics_Qwen_FP32_Stage1_Analysis_20261022
+
+python3 reproducibility_extension/reproduce_stage1.py --input NEW_STAGE1/prepared/allam/ELECTRONICS_ALLAM_FP32_STAGE1_20261023_NIGHT --out NEW_STAGE1/analysis/ALLaM --expected Reproduction/revision/results/review_integration_20261024/Electronics_Three_Model_Review_20261023
+
+python3 reproducibility_extension/reproduce_stage1.py --input NEW_STAGE1/prepared/merged/gemma-2-9b --out NEW_STAGE1/analysis/Gemma --expected Reproduction/revision/results/review_integration_20261024/Electronics_Independent_Review_20261024/recomputed_analysis/gemma-2-9b
+
+python3 reproducibility_extension/reproduce_stage1.py --input NEW_STAGE1/prepared/merged/Fanar-1-9B --out NEW_STAGE1/analysis/Fanar --expected Reproduction/revision/results/review_integration_20261024/Electronics_Independent_Review_20261024/recomputed_analysis/Fanar-1-9B
+
+All four individual analysis commands passed in the audit workspace. They recalculate continuation means, D, three replacement modes, paired contrasts and 10000-resample tweet-cluster intervals for the fixed subsets. Six statistical CSVs/model match all 627120 numeric fields exactly in this environment. Tolerance for cross-platform comparison is 1e-10 (absolute, rtol=0). This is not 627120 independent hypothesis tests.
+
+This path starts from stored item arrays. It does not recreate the 600 FP32 reference-unit forwards per model, resolve historical BF16 discrepancies, run new k-specific random controls, or validate unavailable live Mac execution. Frozen source archives and original analyses remain unchanged.
