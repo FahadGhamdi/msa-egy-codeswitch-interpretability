@@ -1,13 +1,30 @@
-# Revision analyses — 25 October 2026
+# Revision analyses
 
-This directory accompanies the revised Electronics manuscript. The original submitted code remains pinned at `39757498a7dc76a5a634e93f1f9c0f865d1f7bab` and is retained outside this directory.
+This directory contains analysis scripts, aggregate results and reproducibility documentation for the revised Electronics manuscript.
 
-`source/` preserves revision analysis scripts and their source-relative paths. `SOURCE_PROVENANCE.json` records the exact copies. Portable Stage1 and selected-curve replay tools are in `reproducibility_extension/`; saved aggregate outcomes are in `aggregate_results/`. Consult `STAGE1_COMMANDS.txt` and the input archive inventory before execution. Source paths from the original research workspace may require configuration. These scripts are not all standalone entrypoints.
+Start with [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for requirements, input access, commands, expected outputs and limitations.
 
-The limited R1.4 scripts are provided under `r14_limited_code/` for provenance; the independently audited random-control aggregates at k=1,10,20 are available under `r14_limited_results/`. That subdirectory alone is not a runnable inference bundle: its frozen models/inputs/manifest are deliberately not redistributed here. The numerical audit accompanies these results; reviewer acceptance and all-integer-k random controls are not claimed.
+| Location | Contents |
+|---|---|
+| `source/` | Archived revision analysis scripts, preserving their source-relative paths. Some require workspace-specific configuration. |
+| `SOURCE_PROVENANCE.json` and `SCRIPT_INVENTORY.json` | Source-file identities and inventory. |
+| `reproducibility_extension/` | Saved-array statistical recomputation scripts and input inventories. |
+| `aggregate_results/` | Saved aggregate outcomes, including Stage1 reference CSVs. |
+| `r14_limited_code/` | Code and protocol for size-matched random controls at k = 1, 10 and 20. |
+| `r14_limited_results/` | Aggregate random-control outcomes and statistical interpretation. |
+| `TABLE_SOURCE_MAP.json` | Archived table-to-source mapping; numbering reflects its source version. |
 
-Raw restricted corpora, tokenized texts, model weights and private checkpoints are excluded. Obtain upstream data under its providers' conditions. The external archival files were supplied to the researcher; the author confirms that access is by request to the original data providers. Diab et al. (2016), https://aclanthology.org/L16-1669/, describes the data and annotations; its footnote points to annotation guidelines and an example repository, not an explicit blanket redistribution licence for the complete corpus. Required saved-array archives must be made accessible under appropriate terms or regenerated before describing this release as fully independently reproducible.
+## Data access and reproducibility
 
-The existing MIT code licence does not license third-party corpora or model weights. The manuscript Data Availability Statement should identify the verified
-release tag and commit. The original submitted version and this revision
-are separate, traceable versions.
+The public repository does not include the saved-array archives, restricted raw corpora, tokenized inputs, model weights or private checkpoints required for every analysis. Input inventories identify required files but do not provide downloads. Contact the corresponding author about saved-array access under applicable terms.
+
+External archival tweet and comment texts are available by request to the original resource authors, subject to their access and use conditions. [Diab et al. (2016)](https://aclanthology.org/L16-1669/) describes that resource; links to guidelines and examples do not establish a blanket redistribution licence for the full corpus. The MIT code licence does not license third-party corpora or model weights.
+
+The random-control code directory is not a standalone inference bundle. Its frozen inputs, models and execution manifest must be supplied separately. Saved-array checks and aggregate results do not establish end-to-end reproduction from a fresh clone.
+
+## Versions
+
+- Original submitted code: `39757498a7dc76a5a634e93f1f9c0f865d1f7bab`.
+- Revised analysis snapshot cited in the manuscript: `cc5d37c389f1bc1d9da42f551fa112861d98a521`.
+
+The English documentation update changes instructions and presentation only; analysis scripts and numerical results remain unchanged.
