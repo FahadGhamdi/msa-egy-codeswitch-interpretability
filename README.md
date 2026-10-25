@@ -4,7 +4,7 @@ Code and saved results for the article
 
 > F. AlGhamdi. *Absorbed or Anchored? How Large Language Models Represent Embedded Words in Modern Standard Arabic–Egyptian Arabic Code-Switching.* Manuscript under review, 2026.
 
-The package lets you (1) regenerate every table and figure of the article from the saved result files in about a minute, without running any model, and (2) re-run all model experiments from scratch.
+The root-level pipeline and saved summaries correspond to the original submitted manuscript. The revised analyses are in [`revision_20261025/`](revision_20261025/README.md). Start with the [revision reproducibility guide](revision_20261025/REPRODUCIBILITY.md) for input requirements, supported recomputation paths and limitations. The original pipeline below regenerates its saved-summary outputs without model inference; model experiments require separately obtained data and checkpoints.
 
 ## Contents
 
@@ -58,7 +58,7 @@ The experiments use the MSA–Egyptian Arabic language-identification set (`lid_
 - No tweets are redistributed in this repository.
 - `results/exp07/*/L_items.csv` lists the analysed embedded words, each with its LinCE sentence identifier (e.g. `train-53`), so that every item can be traced back to the benchmark.
 
-## Map from the article to the code
+## Original submitted manuscript: code map
 
 | Article | Script(s) | Results |
 |---|---|---|
@@ -90,7 +90,7 @@ The code is released under the MIT License (see `LICENSE`). LinCE data remain su
 The revision code, aggregate results and documentation are available in
 [`revision_20261025/`](revision_20261025/README.md).
 
-The independently audited R1.4 extension includes size-matched random
+The size-matched random-control extension includes size-matched random
 controls at k = 1, 10 and 20 for all four models. The complete selected-head
 curves and the limited random-control comparisons are distinct analyses.
 Intervals are pointwise and conditional on the frozen random draws.
